@@ -69,6 +69,18 @@ void HcalDigisValidation::bookHistograms(DQMStore::IBooker &ib, edm::Run const &
         booking(ib,subdet_, 0, bmc);
     }
 
+
+    book1D(ib,"HcalDigiTask_tp_et", 260, -10, 250);
+    book1D(ib,"HcalDigiTask_tp_et_HB", 260, -10, 250);
+    book1D(ib,"HcalDigiTask_tp_et_HE", 260, -10, 250);
+    book1D(ib,"HcalDigiTask_tp_et_HF", 260, -10, 250);
+    book1D(ib,"HcalDigiTask_tp_ntp",600,-20,3000);
+    book1D(ib,"HcalDigiTask_tp_ntp_HB",404,-20,2000);
+    book1D(ib,"HcalDigiTask_tp_ntp_HE",404,-20,2000);
+    book1D(ib,"HcalDigiTask_tp_ntp_HF",404,-20,2000);
+    book1D(ib,"HcalDigiTask_tp_ntp_10_ieta", 71,-35.5, 35.5);
+    book2D(ib,"HcalDigiTask_tp_et_ieta", 71, -35.5, 35.5, 260, -10, 250);
+
 }
 
 void HcalDigisValidation::booking(DQMStore::IBooker &ib, const std::string bsubdet, int bnoise, int bmc) {
@@ -434,9 +446,27 @@ void HcalDigisValidation::booking(DQMStore::IBooker &ib, const std::string bsubd
 
 void HcalDigisValidation::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup) {
     using namespace edm;
+    //using namespace l1extra;
+    using namespace std;
 
     iSetup.get<CaloGeometryRecord > ().get(geometry);
     iSetup.get<HcalDbRecord > ().get(conditions);
+
+    //TP Code
+    ESHandle<CaloTPGTranscoder> decoder;
+    iSetup.get<CaloTPGRecord>().get(decoder);
+
+    iSetup.get<IdealGeometryRecord>().get(htopo);
+
+    //Get all handles
+    edm::Handle<HcalTrigPrimDigiCollection> emulTPs;
+    iEvent.getByLabel("emulDigis", emulTPs);
+
+    edm::Handle<HcalTrigPrimDigiCollection> dataTPs;
+    iEvent.getByLabel("simHcalTriggerPrimitiveDigis", dataTPs);
+    //iEvent.getByLabel("hcalDigis", dataTPs);
+   
+    //~TP Code
 
     //  std::cout << " >>>>> HcalDigiTester::analyze  hcalselector = "
     //	    << subdet_ << std::endl;
@@ -479,6 +509,55 @@ void HcalDigisValidation::analyze(const edm::Event& iEvent, const edm::EventSetu
 
     fill1D("nevtot", 0);
     nevtot++;
+
+    //TP Code
+   //Counters
+   int c = 0, chb = 0, che = 0, chf = 0;
+
+   for (HcalTrigPrimDigiCollection::const_iterator itr = dataTPs->begin(); itr != dataTPs->end(); ++itr) {
+     int ieta  = itr->id().ieta();
+     int iphi  = itr->id().iphi();
+
+     HcalSubdetector subdet = (HcalSubdetector) 0;
+     if      ( abs(ieta) <= 16 ) subdet = HcalSubdetector::HcalBarrel ;
+     else if ( abs(ieta) <= 28 ) subdet = HcalSubdetector::HcalEndcap ;
+     else if ( abs(ieta) <= 40 ) subdet = HcalSubdetector::HcalForward;
+     
+     /*     HcalSubdetector subdet = (HcalSubdetector) itr->id().subdet(); */
+
+     float cen = itr->SOI_compressedEt();
+     float en = decoder->hcaletValue(ieta,iphi,cen);
+     
+     if (en < 0.00001) continue;
+
+     //Plot the variables
+
+     fill1D("HcalDigiTask_tp_et",en);
+     fill2D("HcalDigiTask_tp_et_ieta",ieta,en);
+
+     ++c;
+     if ( subdet == HcalSubdetector::HcalBarrel ) {
+        fill1D("HcalDigiTask_tp_et_HB",en);
+       ++chb;
+     }
+     if ( subdet == HcalSubdetector::HcalEndcap ) {
+       fill1D("HcalDigiTask_tp_et_HE",en);
+       ++che;
+     }
+     if ( subdet == HcalSubdetector::HcalForward ) {
+       fill1D("HcalDigiTask_tp_et_HF",en);
+       ++chf;
+     }
+     if ( en > 10. ) fill1D("HcalDigiTask_tp_ntp_10_ieta",ieta);
+
+   }//end data TP collection 
+   
+   fill1D("HcalDigiTask_tp_ntp",c);
+   fill1D("HcalDigiTask_tp_ntp_HB",chb);
+   fill1D("HcalDigiTask_tp_ntp_HE",che);
+   fill1D("HcalDigiTask_tp_ntp_HF",chf);
+
+    //~TP Code
 }
 
 template<class Digi> void HcalDigisValidation::reco(const edm::Event& iEvent, const edm::EventSetup& iSetup, const edm::EDGetTokenT<edm::SortedCollection<Digi> > & tok) {
@@ -954,6 +1033,13 @@ void HcalDigisValidation::book1D(DQMStore::IBooker &ib, std::string name, const 
 void HcalDigisValidation::fill1D(std::string name, double X, double weight) {
     msm_->find(name)->second->Fill(X, weight);
 }
+
+//TP Code
+void HcalDigisValidation::book2D(DQMStore::IBooker &ib, std::string name, int nx, double xmin, double xmax,
+				 int ny, double ymin, double ymax) {
+  if (!msm_->count(name)) (*msm_)[name] = ib.book2D(name.c_str(), name.c_str(), nx, xmin, xmax, ny, ymin, ymax);
+}
+//~TP Code
 
 void HcalDigisValidation::book2D(DQMStore::IBooker &ib, std::string name, const HistLim& limX, const HistLim& limY) {
     if (!msm_->count(name)) (*msm_)[name] = ib.book2D(name.c_str(), name.c_str(), limX.n, limX.min, limX.max, limY.n, limY.min, limY.max);
