@@ -57,6 +57,25 @@ def getDataSets( dsFlags = {'RelValMinBias_13TeV_pythia8__':'MinBias'},
 
                     # create file name for use with hcal scripts
                     info = fname.split("__")[2].replace(label, "").strip("-")
+
+                    #The Data sample have an additional piece put in. We strip it out so that the MC and DATA code can be common
+
+                    if camType == "DATA":
+                        iparts = info.split("_")
+			info = ""
+			skip = False
+			for fragment in iparts:
+                            if skip:
+                                info = info.strip("_")
+                                skip = False
+                                continue
+                            if fragment == "RelVal":
+                                skip = True
+                                continue
+                            info += fragment
+                            info += "_"
+                        info = info.strip("_")
+
                     ofn = ofnBlank%{"sample":dsFlags[str],"label":slabel,"info":info}
                 
                     #Check if file exists already
@@ -94,7 +113,8 @@ def getDataSets( dsFlags = {'RelValMinBias_13TeV_pythia8__':'MinBias'},
 
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13TeV_pythia8__':'MinBias'}
-dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
+#dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
+dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}
 # filename prefix 
 #fnPrefix = "DQM_V0001_R000000001"
 #MinBiasPrefix = "DQM_V0001_R000149011"
