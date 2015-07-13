@@ -69,30 +69,30 @@ HcalNoiseRates::HcalNoiseRates(const edm::ParameterSet& iConfig)
   sprintf (histo, "nNNumChannels");
   nNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "nNSumE");
-  nNSumE_ = ibooker.book1D(histo, histo , 100, 0, 1000);
+  nNSumE_ = ibooker.book1D(histo, histo , 100, 0, 5000);
   sprintf (histo, "nNSumEt");
-  nNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 1000);
+  nNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 2000);
 
   sprintf (histo, "sNNumChannels");
   sNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "sNSumE");
-  sNSumE_ = ibooker.book1D(histo, histo , 100, 0, 1000);
+  sNSumE_ = ibooker.book1D(histo, histo , 100, 0, 5000);
   sprintf (histo, "sNSumEt");
-  sNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 1000);
+  sNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 2000);
 
   sprintf (histo, "iNNumChannels");
   iNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "iNSumE");
-  iNSumE_ = ibooker.book1D(histo, histo , 100, 0, 1000);
+  iNSumE_ = ibooker.book1D(histo, histo , 100, 0, 5000);
   sprintf (histo, "iNSumEt");
-  iNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 1000);
+  iNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 2000);
 
   sprintf (histo, "hNoise_maxZeros");
-  hNoise_maxZeros_ = ibooker.book1D(histo, histo, 25, 0, 25);
+  hNoise_maxZeros_ = ibooker.book1D(histo, histo, 80, 0, 80);
   sprintf (histo, "hNoise_maxHPDHits");
-  hNoise_maxHPDHits_ = ibooker.book1D(histo, histo, 25, 0, 25);
+  hNoise_maxHPDHits_ = ibooker.book1D(histo, histo, 20, 0, 20);
   sprintf (histo, "hNoise_maxHPDNoOtherHits");
-  hNoise_maxHPDNoOtherHits_ = ibooker.book1D(histo, histo, 25, 0, 25);
+  hNoise_maxHPDNoOtherHits_ = ibooker.book1D(histo, histo, 20, 0, 20);
 
 }
   
