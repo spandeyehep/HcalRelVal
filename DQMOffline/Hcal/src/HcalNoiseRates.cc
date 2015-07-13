@@ -27,6 +27,9 @@ HcalNoiseRates::HcalNoiseRates(const edm::ParameterSet& iConfig)
   minHitEnergy_  = iConfig.getUntrackedParameter<double>("minHitEnergy");
 
   useAllHistos_  = iConfig.getUntrackedParameter<bool>("useAllHistos", false);
+
+  //Hcal Noise Summary
+  noisetoken_ = consumes<HcalNoiseSummary>(iConfig.getParameter<edm::InputTag>("noiselabel"));
 }
 
   void HcalNoiseRates::bookHistograms(DQMStore::IBooker & ibooker, edm::Run const & /* iRun*/, edm::EventSetup const & /* iSetup */)
@@ -61,6 +64,29 @@ HcalNoiseRates::HcalNoiseRates(const edm::ParameterSet& iConfig)
   sprintf  (histo, "hRBXNHits" );
   hRBXNHits_ = ibooker.book1D(histo, histo, 73,-0.5,72.5);
 
+  //HcalNoiseSummary
+
+  sprintf (histo, "nNNumChannels");
+  nNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
+  sprintf (histo, "nNSumE");
+  nNSumE_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  sprintf (histo, "nNSumEt");
+  nNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 100);
+
+  sprintf (histo, "sNNumChannels");
+  sNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
+  sprintf (histo, "sNSumE");
+  sNSumE_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  sprintf (histo, "sNSumEt");
+  sNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 100);
+
+  sprintf (histo, "iNNumChannels");
+  iNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
+  sprintf (histo, "iNSumE");
+  iNSumE_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  sprintf (histo, "iNSumEt");
+  iNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 100);
+
 }
   
   
@@ -90,6 +116,28 @@ HcalNoiseRates::analyze(const edm::Event& iEvent, const edm::EventSetup& evSetup
       << " could not find HcalNoiseRBXCollection named " << rbxCollName_ << ".\n";
     return;
   }
+
+  // get the Noise summary object
+  edm::Handle<HcalNoiseSummary> summary_h;
+  iEvent.getByToken(noisetoken_, summary_h);
+  if(!summary_h.isValid()) {
+    throw edm::Exception(edm::errors::ProductNotFound) << " could not find HcalNoiseSummary.\n";
+    return;
+  }
+  const HcalNoiseSummary summary = *summary_h;
+
+  //Fill the Noise Summary histograms
+  nNNumChannels_->Fill(summary.numNegativeNoiseChannels());
+  nNSumE_->Fill(summary.NegativeNoiseSumE());
+  nNSumEt_->Fill(summary.NegativeNoiseSumEt());
+
+  sNNumChannels_->Fill(summary.numSpikeNoiseChannels());
+  sNSumE_->Fill(summary.spikeNoiseSumE());
+  sNSumEt_->Fill(summary.spikeNoiseSumEt());
+
+  iNNumChannels_->Fill(summary.numIsolatedNoiseChannels());
+  iNSumE_->Fill(summary.isolatedNoiseSumE());
+  iNSumEt_->Fill(summary.isolatedNoiseSumEt());
 
   // loop over the RBXs and fill the histograms
   for(reco::HcalNoiseRBXCollection::const_iterator it=handle->begin(); it!=handle->end(); ++it) {
