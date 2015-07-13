@@ -69,23 +69,30 @@ HcalNoiseRates::HcalNoiseRates(const edm::ParameterSet& iConfig)
   sprintf (histo, "nNNumChannels");
   nNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "nNSumE");
-  nNSumE_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  nNSumE_ = ibooker.book1D(histo, histo , 100, 0, 500);
   sprintf (histo, "nNSumEt");
-  nNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  nNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 500);
 
   sprintf (histo, "sNNumChannels");
   sNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "sNSumE");
-  sNSumE_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  sNSumE_ = ibooker.book1D(histo, histo , 100, 0, 500);
   sprintf (histo, "sNSumEt");
-  sNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  sNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 500);
 
   sprintf (histo, "iNNumChannels");
   iNNumChannels_ = ibooker.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "iNSumE");
-  iNSumE_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  iNSumE_ = ibooker.book1D(histo, histo , 100, 0, 500);
   sprintf (histo, "iNSumEt");
-  iNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 100);
+  iNSumEt_ = ibooker.book1D(histo, histo , 100, 0, 500);
+
+  sprintf (histo, "hNoise_maxZeros");
+  hNoise_maxZeros_ = ibooker.book1D(histo, histo, 50, 0, 50);
+  sprintf (histo, "hNoise_maxHPDHits");
+  hNoise_maxHPDHits_ = ibooker.book1D(histo, histo, 50, 0, 50);
+  sprintf (histo, "hNoise_maxHPDNoOtherHits");
+  hNoise_maxHPDNoOtherHits_ = ibooker.book1D(histo, histo, 50, 0, 50);
 
 }
   
@@ -138,6 +145,10 @@ HcalNoiseRates::analyze(const edm::Event& iEvent, const edm::EventSetup& evSetup
   iNNumChannels_->Fill(summary.numIsolatedNoiseChannels());
   iNSumE_->Fill(summary.isolatedNoiseSumE());
   iNSumEt_->Fill(summary.isolatedNoiseSumEt());
+
+  hNoise_maxZeros_->Fill(summary.maxZeros());
+  hNoise_maxHPDHits_->Fill(summary.maxHPDHits());
+  hNoise_maxHPDNoOtherHits_->Fill(summary.maxHPDNoOtherHits());
 
   // loop over the RBXs and fill the histograms
   for(reco::HcalNoiseRBXCollection::const_iterator it=handle->begin(); it!=handle->end(); ++it) {

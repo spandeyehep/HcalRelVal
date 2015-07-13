@@ -78,23 +78,32 @@ void NoiseRates::bookHistograms(DQMStore::IBooker &ib, edm::Run const &run, edm:
   sprintf (histo, "nNNumChannels");
   nNNumChannels_ = ib.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "nNSumE");
-  nNSumE_ = ib.book1D(histo, histo , 100, 0, 100);
+  nNSumE_ = ib.book1D(histo, histo , 100, 0, 500);
   sprintf (histo, "nNSumEt");
-  nNSumEt_ = ib.book1D(histo, histo , 100, 0, 100);
+  nNSumEt_ = ib.book1D(histo, histo , 100, 0, 500);
 
   sprintf (histo, "sNNumChannels");
   sNNumChannels_ = ib.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "sNSumE");
-  sNSumE_ = ib.book1D(histo, histo , 100, 0, 100);
+  sNSumE_ = ib.book1D(histo, histo , 100, 0, 500);
   sprintf (histo, "sNSumEt");
-  sNSumEt_ = ib.book1D(histo, histo , 100, 0, 100);
+  sNSumEt_ = ib.book1D(histo, histo , 100, 0, 500);
 
   sprintf (histo, "iNNumChannels");
   iNNumChannels_ = ib.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "iNSumE");
-  iNSumE_ = ib.book1D(histo, histo , 100, 0, 100);
+  iNSumE_ = ib.book1D(histo, histo , 100, 0, 500);
   sprintf (histo, "iNSumEt");
-  iNSumEt_ = ib.book1D(histo, histo , 100, 0, 100);
+  iNSumEt_ = ib.book1D(histo, histo , 100, 0, 500);
+
+  sprintf (histo, "hNoise_maxZeros");
+  hNoise_maxZeros_ = ib.book1D(histo, histo, 50, 0, 50);
+  sprintf (histo, "hNoise_maxHPDHits");
+  hNoise_maxHPDHits_ = ib.book1D(histo, histo, 50, 0, 50);
+  sprintf (histo, "hNoise_maxHPDNoOtherHits");
+  hNoise_maxHPDNoOtherHits_ = ib.book1D(histo, histo, 50, 0, 50);
+
+
 
 }
   
@@ -137,6 +146,10 @@ NoiseRates::analyze(const edm::Event& iEvent, const edm::EventSetup& evSetup)
   iNNumChannels_->Fill(summary.numIsolatedNoiseChannels());
   iNSumE_->Fill(summary.isolatedNoiseSumE());
   iNSumEt_->Fill(summary.isolatedNoiseSumEt());  
+
+  hNoise_maxZeros_->Fill(summary.maxZeros());
+  hNoise_maxHPDHits_->Fill(summary.maxHPDHits());
+  hNoise_maxHPDNoOtherHits_->Fill(summary.maxHPDNoOtherHits());
 
   // loop over the RBXs and fill the histograms
   for(reco::HcalNoiseRBXCollection::const_iterator it=handle->begin(); it!=handle->end(); ++it) {

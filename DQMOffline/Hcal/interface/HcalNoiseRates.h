@@ -90,6 +90,10 @@ class HcalNoiseRates : public DQMEDAnalyzer {
   MonitorElement* iNSumE_;
   MonitorElement* iNSumEt_;
 
+  MonitorElement* hNoise_maxZeros_;
+  MonitorElement* hNoise_maxHPDHits_;
+  MonitorElement* hNoise_maxHPDNoOtherHits_;
+
 };
 
 
