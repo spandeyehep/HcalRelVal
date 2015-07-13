@@ -78,30 +78,30 @@ void NoiseRates::bookHistograms(DQMStore::IBooker &ib, edm::Run const &run, edm:
   sprintf (histo, "nNNumChannels");
   nNNumChannels_ = ib.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "nNSumE");
-  nNSumE_ = ib.book1D(histo, histo , 100, 0, 500);
+  nNSumE_ = ib.book1D(histo, histo , 100, 0, 1000);
   sprintf (histo, "nNSumEt");
-  nNSumEt_ = ib.book1D(histo, histo , 100, 0, 500);
+  nNSumEt_ = ib.book1D(histo, histo , 100, 0, 1000);
 
   sprintf (histo, "sNNumChannels");
   sNNumChannels_ = ib.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "sNSumE");
-  sNSumE_ = ib.book1D(histo, histo , 100, 0, 500);
+  sNSumE_ = ib.book1D(histo, histo , 100, 0, 1000);
   sprintf (histo, "sNSumEt");
-  sNSumEt_ = ib.book1D(histo, histo , 100, 0, 500);
+  sNSumEt_ = ib.book1D(histo, histo , 100, 0, 1000);
 
   sprintf (histo, "iNNumChannels");
   iNNumChannels_ = ib.book1D(histo, histo, 100, 0, 100);
   sprintf (histo, "iNSumE");
-  iNSumE_ = ib.book1D(histo, histo , 100, 0, 500);
+  iNSumE_ = ib.book1D(histo, histo , 100, 0, 1000);
   sprintf (histo, "iNSumEt");
-  iNSumEt_ = ib.book1D(histo, histo , 100, 0, 500);
+  iNSumEt_ = ib.book1D(histo, histo , 100, 0, 1000);
 
   sprintf (histo, "hNoise_maxZeros");
-  hNoise_maxZeros_ = ib.book1D(histo, histo, 50, 0, 50);
+  hNoise_maxZeros_ = ib.book1D(histo, histo, 25, 0, 25);
   sprintf (histo, "hNoise_maxHPDHits");
-  hNoise_maxHPDHits_ = ib.book1D(histo, histo, 50, 0, 50);
+  hNoise_maxHPDHits_ = ib.book1D(histo, histo, 25, 0, 25);
   sprintf (histo, "hNoise_maxHPDNoOtherHits");
-  hNoise_maxHPDNoOtherHits_ = ib.book1D(histo, histo, 50, 0, 50);
+  hNoise_maxHPDNoOtherHits_ = ib.book1D(histo, histo, 25, 0, 25);
 
 
 
