@@ -60,7 +60,7 @@ cd ..
 
 #Process Startup Jet
 #root -b -l -q 'RelValMacro.C("'${OLD_VERS}_Startup'","'${NEW_VERS}_Startup'","'HcalRecHitValidationRelVal_Jet_${OLD_VERS}.root'","'HcalRecHitValidationRelVal_Jet_${NEW_VERS}.root'","InputRelVal_Medium_DATA.txt")'
-./RelValMacro.exe ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_Jet_${OLD_VERS}.root HcalRecHitValidationRelVal_Jet_${NEW_VERS}.root InputRelVal_Medium_DATA.txt
+./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_Jet_${OLD_VERS}.root HcalRecHitValidationRelVal_Jet_${NEW_VERS}.root rangeMediumData
 
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal/Jet/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal/Jet/RBX/
@@ -68,7 +68,7 @@ mv *gif             ${NEW_VERS}_vs_${OLD_VERS}_RelVal/Jet/RecHits/
 
 #Process Startup MinBias
 #root -b -l -q 'RelValMacro.C("'${OLD_VERS}'","'${NEW_VERS}'","'HcalRecHitValidationRelVal_MinBias_${OLD_VERS}.root'","'HcalRecHitValidationRelVal_MinBias_${NEW_VERS}.root'","InputRelVal_Medium_DATA.txt")'
-./RelValMacro.exe ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_MinBias_${OLD_VERS}.root HcalRecHitValidationRelVal_MinBias_${NEW_VERS}.root InputRelVal_Medium_DATA.txt
+./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_MinBias_${OLD_VERS}.root HcalRecHitValidationRelVal_MinBias_${NEW_VERS}.root rangeMediumData
 
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal/MinBias/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal/MinBias/RBX/
