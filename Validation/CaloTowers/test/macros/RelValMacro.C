@@ -20,7 +20,13 @@
 #include <cstring>
 #include <cstdio>
 
+#include <fstream>
+
 #include "rootlogon.h"
+
+#include <Python.h>
+#include <boost/python.hpp>
+#include <vector>
 
 template<class T1, class T2>
 void prn(T1 s1, T2 s2) 
@@ -28,7 +34,7 @@ void prn(T1 s1, T2 s2)
     std::cout << "\t>> " << s1 << ": " << s2 << std::endl;
 }
 
-void RelValMacro(std::string ref_vers, std::string val_vers, std::string rfname, std::string vfname, std::string inputStream = "InputRelVal.txt");
+void RelValMacro(std::string seriesOfTubes);
 void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::string val_vers, std::string histName, std::string outLabel, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax,
                    std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, int refCol, int valCol, std::string xAxisTitle, std::string histName2 = "");
 template<class T>
@@ -43,75 +49,57 @@ public:
     TDirectory* operator()(TDirectory *target, std::string& s);
 } dfRef, dfVal;
 
-int main(int argn, char **argv)
-{
-    if(argn == 5)       RelValMacro(argv[1], argv[2], argv[3], argv[4]);
-    else if(argn == 6)  RelValMacro(argv[1], argv[2], argv[3], argv[4], argv[5]);
-    else
-    {
-	printf("Usage: ./RelValMacro.exe refVersion valVersion refFileName valFileName [input stream]\n");
-    }
-}
 
-void RelValMacro(std::string ref_vers, std::string val_vers, std::string rfname, std::string vfname, std::string inputStream) 
+void RelValMacro(std::string seriesOfTubes)
 {
-    //Warning!!! This rootlogon hacks the root color pallate.  This should probably be rewritten.  
+    //Split the string passed from the python driver
+    std::stringstream ss(seriesOfTubes);
+    std::string item;
+    std::vector<std::string> props;
+    while (getline(ss, item, '|')) {
+        props.push_back(item);
+    }
+    std::string ref_vers = props[0];
+    std::string val_vers = props[1];
+    std::string rfname = props[2];
+    std::string vfname = props[3];
+    std::string histName = props[4];
+    std::string ofileName = props[5];
+    int nRebin = std::stoi(props[6]);
+    double xAxisMin = std::stod(props[7]);
+    double xAxisMax = std::stod(props[8]);
+    double yAxisMin = std::stod(props[9]);
+    double yAxisMax = std::stod(props[10]);
+    std::string dimFlag = props[11];
+    std::string statFlag = props[12];
+    std::string chi2Flag = props[13];
+    std::string logFlag = props[14];
+    int refCol = std::stoi(props[15]);
+    int valCol = std::stoi(props[16]);
+    std::string xAxisTitle = props[17];
+    std::string histName2 = props[18];
+    
+    //Warning!!! This rootlogon hacks the root color pallate.  This should probably be rewritten.
     setColors();
     
-    //File Read 
-    FILE * inputFile = NULL;
-    if((inputFile = fopen(inputStream.c_str(), "r")))
-    {
-        char buff[4096];
-        char *c;
-	
-	char histName[128], histName2[128] = "", ofileName[128], xAxisTitle[128];
-	double xAxisMin, xAxisMax, yAxisMin, yAxisMax;
-	char dimFlag[32], statFlag[32], chi2Flag[32], logFlag[32];
-	int nRebin, draw, refCol, valCol;
-
 	TFile* Ref_File = new TFile(rfname.c_str());
 	TFile* Val_File = new TFile(vfname.c_str());
-
+    
+        
 	if(Ref_File && Val_File)
 	{
-	    while(!feof(inputFile) && (c = fgets(buff, 4096, inputFile)) != NULL)
-	    {            
-		//The following lines allow for comments.  The first comment character (#) will be replaced with a end of string.
-		char* k = strchr(buff, '#');
-		if(k) *k = '\0';
-		//Parse the line
-		if(sscanf(buff, "%s %d %s %d %lf %lf %lf %lf %s %s %s %s %d %d %[^\n]", histName, &draw, ofileName, &nRebin, &xAxisMin, &xAxisMax, &yAxisMin, &yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, &refCol, &valCol, xAxisTitle) == 15)
-		{
-		    //Skip is set not to draw
-		    if(!draw) continue;
-                
-		    //Ugly hack for the timing plots, this should be fixed 
-		    if(strcmp(dimFlag, "TM") == 0)
-		    {
-			fgets(buff, 4096, inputFile);
-			sscanf(buff, "%s", histName2);
-		    }
-                
-		    //Make plot
-		    ProcessRelVal(Ref_File, Val_File, ref_vers, val_vers, histName, ofileName, nRebin, xAxisMin, xAxisMax, yAxisMin, yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, refCol, valCol, xAxisTitle, histName2);
-		}
-	    }
+        
+        if(histName2 == "none") histName2 = "";
+        
+        //Make plot
+        ProcessRelVal(Ref_File, Val_File, ref_vers, val_vers, histName, ofileName, nRebin, xAxisMin, xAxisMax, yAxisMin, yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, refCol, valCol, xAxisTitle, histName2);
 	}
 	else
 	{
 	    if(!Ref_File) std::cout << "Input root file \"" << rfname << "\" not found!!!" << std::endl;
 	    if(!Val_File) std::cout << "Input root file \"" << vfname << "\" not found!!!" << std::endl;
 	}
-        fclose(inputFile);
-	
-	Ref_File->Close();
-	Val_File->Close();
-    }
-    else
-    {
-        std::cout << "Input file \"" << inputStream << "\" not found!!!" << std::endl;
-    }
+
 
 //    ProcessSubDetCT(Ref_File, Val_File, RelValStream, CT_nHist1, CT_nHist2, CT_nProf, CT_nHistTot, ref_vers, val_vers, harvest);
 
@@ -125,10 +113,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     int slashLoc = histName.rfind("/");
     std::string histDir = histName.substr(0, slashLoc);
     if(slashLoc < histName.size() - 1) histName = histName.substr(slashLoc + 1, histName.size());
-
     //Get objects from TFiles
     TDirectory *refTD = dfRef(ref_file, histDir);
     TObject *refObj = 0;
+    
     if(refTD) 
     {
         refObj = refTD->Get(histName.c_str());
@@ -141,7 +129,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     }
     if(!refObj)
     {
-	std::cout << "Cannot find histogram \"" << histDir << "\\" << histName << "\" in file \"" << ref_file->GetName() << "\"" << std::endl;
+	std::cout << "Cannot find histogram \"" << histDir << "/" << histName << "\" in file \"" << ref_file->GetName() << "\"" << std::endl;
 	return;
     }
 
@@ -159,7 +147,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     }
     if(!refObj)
     {
-	std::cout << "Cannot find histogram \"" << histDir << "\\" << histName << "\" in file \"" << val_file->GetName() << "\"" << std::endl;
+	std::cout << "Cannot find histogram \"" << histDir << "/" << histName << "\" in file \"" << val_file->GetName() << "\"" << std::endl;
 	return;
     }
 
@@ -215,7 +203,11 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         //xAxis
         if (xAxisMin == 0) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
         if (xAxisMax < 0) xAxisMax = ref_hist1->GetXaxis()->GetXmax();
-
+	
+	//Sanitize xAxis inputs
+	if (xAxisMin < ref_hist1->GetXaxis()->GetXmin()) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
+	if (xAxisMax > ref_hist1->GetXaxis()->GetXmax()) xAxisMax = ref_hist1->GetXaxis()->GetXmax();
+	
         if (xAxisMax > 0 || xAxisMin != 0) {
             ref_hist1->GetXaxis()->SetRangeUser(xAxisMin, xAxisMax);
             val_hist1->GetXaxis()->SetRangeUser(xAxisMin, xAxisMax);
@@ -630,3 +622,11 @@ void setObjProps(T obj)
     
     obj->GetXaxis()->SetTitleOffset(1.3);
 }
+
+
+BOOST_PYTHON_MODULE(RelValMacro)
+{
+    using namespace boost::python;
+    def("RelValMacro", RelValMacro);
+}
+
