@@ -91,7 +91,7 @@ void HcalDigisValidation::booking(DQMStore::IBooker &ib, const std::string bsubd
     HistLim ndigis(520, -20., 1020.);
     HistLim sime(200, 0., 1.0);
 
-    HistLim digiAmp(320, -100., 6300.);
+    HistLim digiAmp(360, -100., 7100.);
     HistLim ratio(2000, -100., 3900.);
     HistLim sumAmp(100, -500., 1500.);
 
