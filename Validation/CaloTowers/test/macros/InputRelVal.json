@@ -631,8 +631,8 @@
         "logFlag": "Log",
         "outLabel": "HB_CaloTowers_MET_HB.gif",
         "rangeHigh": {
-            "rebin": 8,
-            "xAxisMax": 800.0,
+            "rebin": 20,
+            "xAxisMax": 3000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -772,8 +772,8 @@
         "logFlag": "Log",
         "outLabel": "HB_CaloTowers_SET_HB.gif",
         "rangeHigh": {
-            "rebin": 20,
-            "xAxisMax": 2200.0,
+            "rebin": 100,
+            "xAxisMax": 8000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -913,8 +913,8 @@
         "logFlag": "Log",
         "outLabel": "HB_CaloTowers_Energy_in_ECAL_HB.gif",
         "rangeHigh": {
-            "rebin": 10,
-            "xAxisMax": 1500.0,
+            "rebin": 50,
+            "xAxisMax": 6000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -1054,8 +1054,8 @@
         "logFlag": "Log",
         "outLabel": "HB_CaloTowers_Energy_in_HCAL_HB.gif",
         "rangeHigh": {
-            "rebin": 10,
-            "xAxisMax": 2000.0,
+            "rebin": 50,
+            "xAxisMax": 8000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -5203,46 +5203,46 @@
         "drawSwitch": 1,
         "histName2": "none",
         "logFlag": "NoLog",
-        "outLabel": "emap_depth1-1.gif",
+        "outLabel": "emap_depth1.gif",
         "rangeHigh": {
             "rebin": 1,
-            "xAxisMax": 29.0,
-            "xAxisMin": -29.0,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 1,
-            "xAxisMax": 29.0,
-            "xAxisMin": -29.0,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 1,
-            "xAxisMax": 29.0,
-            "xAxisMin": -29.0,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
         "rangeMediumData": {
             "rebin": 1,
-            "xAxisMax": 29.0,
-            "xAxisMin": -29.0,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
         "rangeMediumPileup": {
             "rebin": 1,
-            "xAxisMax": 29.0,
-            "xAxisMin": -29.0,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
-        "xAxisTitle": "eta-phi RecHits Emap depth1 (HB/HE)"
+        "xAxisTitle": "eta-phi RecHits Emap depth1"
     },
     "HcalRecHitTask/emap_depth2": {
         "chi2Flag": "noChi2",
