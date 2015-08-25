@@ -16,7 +16,7 @@ parser.add_option("-D", "--DATA", action="store_true", dest="getDATA", default=F
 #getDataSets if used to discover and download the datasets. It is seperated as a function so that we can easily switch between
 #MC and DATA datasets
 
-def getDataSets( dsFlags = {'RelValMinBias_13TeV_pythia8__':'MinBias'},
+def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                  curl = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval/data/browse/ROOT/RelVal/%(relValDIR)s",
                  ofnBlank = "HcalRecHitValidationRelVal_%(sample)s_%(label)s_%(info)s.root",
                  label = "CMSSW_X_Y_Z",
@@ -112,7 +112,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13TeV_pythia8__':'MinBias'},
 
 
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
-dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13TeV_pythia8__':'MinBias'}
+dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
 dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}
 # filename prefix 
