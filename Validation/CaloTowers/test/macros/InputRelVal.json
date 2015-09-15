@@ -3567,7 +3567,28 @@
         "histName2": "none",
         "logFlag": "noLog",
         "outLabel": "HcalDigiTask_tp_ave_et_ieta.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 35,
             "xAxisMin": -35,
@@ -3586,7 +3607,28 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_et.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 190,
             "xAxisMin": 0,
@@ -3605,7 +3647,28 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_et_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 190,
             "xAxisMin": 0,
@@ -3624,7 +3687,28 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_et_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 160,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 160,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 160,
             "xAxisMin": 0,
@@ -3643,7 +3727,28 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_et_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 150,
             "xAxisMin": 0,
@@ -3662,9 +3767,30 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_ntp.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
             "rebin": 1,
             "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 1000,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3681,7 +3807,28 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_ntp_10_ieta.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 35,
             "xAxisMin": -35,
@@ -3700,9 +3847,30 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_ntp_HB.gif",
-        "rangeMedium": {
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 400,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
             "rebin": 1,
             "xAxisMax": 300,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3719,9 +3887,30 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_ntp_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 200,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 200,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
             "rebin": 1,
             "xAxisMax": 200,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3738,9 +3927,30 @@
         "histName2": "none",
         "logFlag": "Log",
         "outLabel": "HcalDigiTask_tp_ntp_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "rangeMedium": {
             "rebin": 1,
             "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
