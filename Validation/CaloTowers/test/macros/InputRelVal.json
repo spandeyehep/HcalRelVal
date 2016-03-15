@@ -5322,21 +5322,21 @@
         "outLabel": "N_HF.gif",
         "rangeHigh": {
             "rebin": 10,
-            "xAxisMax": 600.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 10,
-            "xAxisMax": 500.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 10,
-            "xAxisMax": 600.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
