@@ -28,6 +28,10 @@
 #include <boost/python.hpp>
 #include <vector>
 
+
+//Changes made by Shubham Pandey: L548 and L561 added
+
+
 template<class T1, class T2>
 void prn(T1 s1, T2 s2) 
 {
@@ -544,6 +548,8 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 
         if (xTitleCheck != "NoTitle") ref_hist2D->GetXaxis()->SetTitle(xAxisTitle.c_str());
         ref_hist2D->Draw("colz");
+	//Set ZMin = 0
+        ref_hist2D->SetMinimum(0);
         leg1->Draw();
         myc->SaveAs(("ref_" + outLabel).c_str());
 
@@ -554,6 +560,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 
         if (xTitleCheck != "NoTitle") val_hist2D->GetXaxis()->SetTitle(xAxisTitle.c_str());
         val_hist2D->Draw("colz");
+
+	//Set ZMin = 0
+        val_hist2D->SetMinimum(0);
+	
         leg2->Draw();
         myc->SaveAs(("val_" + outLabel).c_str());
     }

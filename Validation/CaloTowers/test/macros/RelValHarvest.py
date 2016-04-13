@@ -100,7 +100,8 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
         return
 
     # Copy the single pion scan part from Salavat's directory
-    spFileName = "pi50scan%s_fullGeom_ECALHCAL_CaloTowers.root"%slabel
+    #    spFileName = "pi50scan%s_fullGeom_ECALHCAL_CaloTowers.root"%slabel #->original line
+    spFileName = "pi50scan%s_ECALHCAL_CaloTowers.root"%slabel 
     cpCommand = "cp /afs/cern.ch/user/a/abdullin/public/pi50_scan/%s ."%spFileName
     if not os.path.isfile(spFileName):
         print cpCommand
@@ -114,14 +115,17 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
 #dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
-dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}
+#dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}  #Original
+dsDATAFlags = {'256677__JetHT__':'JetHT','256677__ZeroBias__':'ZeroBias'} #New_original
+#dsDATAFlags = {'256677__SingleMuon__':'SingleMuon'} #New_original
+#dsDATAFlags = {'254790__JetHT__':'JetHT','254790__ZeroBias__':'ZeroBias','254790__SingleMuon__':'SingleMuon'} #New_new
 # filename prefix 
 #fnPrefix = "DQM_V0001_R000000001"
 #MinBiasPrefix = "DQM_V0001_R000149011"
 #JetPrefix = "DQM_V0001_R000191226"
 
 # blank curl command 
-curlMC = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval/data/browse/ROOT/RelVal/%(relValDIR)s"
+curlMC = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval-test/data/browse/ROOT/RelVal/%(relValDIR)s"
 curlDATA = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval/data/browse/ROOT/RelValData/%(relValDIR)s"
 # output file name blank
 ofnBlank = "HcalRecHitValidationRelVal_%(sample)s_%(label)s_%(info)s.root"
