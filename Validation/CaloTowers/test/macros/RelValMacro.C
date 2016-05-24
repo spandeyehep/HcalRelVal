@@ -28,10 +28,6 @@
 #include <boost/python.hpp>
 #include <vector>
 
-
-//Changes made by Shubham Pandey: L548 and L561 added
-
-
 template<class T1, class T2>
 void prn(T1 s1, T2 s2) 
 {
@@ -162,21 +158,50 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         gStyle->SetPadRightMargin(0.03);
         myc = new TCanvas("myc", "", 1200, 600);
     } else myc = new TCanvas("myc", "", 800, 600);
+//    gStyle->SetOptStat(0);    
     myc->SetGrid();
-
+    
+    // Divide canvas into two pads
+//    myc->Divide(1,2,0,0);
+    TPad* pad1 = new TPad("pad1","pad1", 0.0, 0.3, 1.0, 1.0, 0);
+    pad1->SetBottomMargin(1); // Upper and lower plots are joined (0) or separate (1)
+    pad1->SetGridx();         // Vertical grid
+    
+    TPad* pad2 = new TPad("pad2","pad2", 0.0, 0.05, 1.0, 0.3, 0);
+    pad2->SetTopMargin(0);
+    pad2->SetBottomMargin(0.2);
+    pad2->SetGridx(); // vertical grid
+    pad2->SetGridy(); // horizontal grid
+    
+    pad1->Draw();
+    pad2->Draw();
+    
+//    float pad2width = pad2->GetWw();
+//    float pad2height = pad2->GetWh() * pad2->GetAbsHNCD();
+//    float x2pixels = 10;
+//    float y2pixels = 10;
+//    float x2size = x2pixels / pad2width;
+//    float y2size = y2pixels / pad2height;
+    
     std::string xTitleCheck = xAxisTitle;
     xTitleCheck = xTitleCheck.substr(1, 7);
 
-    //Format pad
+    //Format pads
+//    myc->cd(1);
+//    pad1->cd();
     if(logSwitch.compare("Log") == 0 && dimSwitch.compare("2D") == 0)
     {
-        myc->SetLogy(0);
-        myc->SetLogz(1);
+        pad1->SetLogy(0);
+        pad1->SetLogz(1);
     }
     else if(logSwitch.compare("Log") == 0)
     {
-        myc->SetLogy(1);
+        pad1->SetLogy(1);
     }
+//    pad2->cd();
+    pad2->SetGridy();
+    
+//    pad1->cd();
     
     if (dimSwitch.compare("1D") == 0) 
     {
@@ -193,16 +218,57 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             ref_hist1->Rebin(nRebin);
             val_hist1->Rebin(nRebin);
         }
+        
+        //Create Copies (Clones) to use in Ratio Plot
+        TH1* ref_hist1_clone = (TH1*)ref_hist1->Clone("ref_hist1_clone");
+        TH1* val_hist1_clone = (TH1*)val_hist1->Clone("val_hist1_clone");
+        
+        //Prepare clones for correct uncertainties
+        ref_hist1_clone->Sumw2();
+        val_hist1_clone->Sumw2();
+        
+        // Normalize (scale = n_ref/n_val)
+        float n_ref = ref_hist1_clone->Integral();
+        float n_val = val_hist1_clone->Integral();
+        float scale = n_ref/n_val;
+        val_hist1_clone->Scale(scale);
+        
+        //Create ratio histogram (val - ref)/ref
+        TH1* ratio_hist1 = (TH1*)val_hist1_clone;
+        ratio_hist1->Sumw2();
+        ratio_hist1->Add(ref_hist1_clone,-1.);
+        ratio_hist1->Divide(ref_hist1_clone);
 
         //Set the colors, styles, titles, stat boxes and format axes for the histograms
         ref_hist1->SetStats(kTRUE);
         val_hist1->SetStats(kTRUE);
-
+        ratio_hist1->SetStats(kFALSE);
+        
         if (statSwitch.compare("Stat") != 0 && statSwitch.compare("Statrv") != 0) {
             ref_hist1->SetStats(kFALSE);
             val_hist1->SetStats(kFALSE);
         }
-
+        
+//        //Format Ratio Plot
+//        float pad2width = pad2->GetWw();
+//        float pad2height = pad2->GetWh() * pad2->GetAbsHNDC();
+//        float x2pixels = 100;
+//        float y2pixels = 15;
+//        float x2size = x2pixels / pad2width;
+//        float y2size = y2pixels / pad2height;
+//        
+//        TAxis* x2axis = ratio_hist1->GetXaxis();
+//        TAxis* y2axis = ratio_hist1->GetYaxis();
+//        
+//        x2axis->SetTitleOffset(2);
+//        x2axis->SetTitleSize(0.15);
+//        x2axis->SetLabelSize(x2size);
+//        
+//        y2axis->SetTitleOffset(0.3);
+//        y2axis->SetTitleSize(0.12);
+////        y2axis->SetRangeUser(0,2.5);
+//        y2axis->SetLabelSize(y2size);
+        
         //Min/Max Convetion: Default AxisMin = 0. Default AxisMax = -1.
         //xAxis
         if (xAxisMin == 0) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
@@ -226,7 +292,9 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         }
 
         //Title
-        if (xTitleCheck != "NoTitle") ref_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
+//        if (xTitleCheck != "NoTitle") ref_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
+        ref_hist1->GetXaxis()->SetTitle("");
+        if (xTitleCheck != "NoTitle") ratio_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
 
         //Different histo colors and styles
         ref_hist1->SetTitle("");
@@ -243,6 +311,11 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             ref_hist1->SetLineWidth(2);
             val_hist1->SetLineWidth(2);
         }
+        
+        ratio_hist1->SetTitle("");
+        ratio_hist1->SetLineStyle(1);
+        ratio_hist1->SetMarkerStyle(1);
+        ratio_hist1->SetMarkerSize(0.02);
 
         //Legend
         TLegend *leg = new TLegend(0.50, 0.91, 0.84, 0.99, "", "brNDC");
@@ -250,14 +323,47 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         leg->SetFillStyle(1001);
         leg->AddEntry(ref_hist1, ("CMSSW_" + ref_vers).c_str(), "l");
         leg->AddEntry(val_hist1, ("CMSSW_" + val_vers).c_str(), "l");
+        
+        //Format Ratio Plot
+        float pad2width = pad2->GetWw();
+        float pad2height = pad2->GetWh() * pad2->GetAbsHNDC();
+        float x2pixels = 100;
+        float y2pixels = 15;
+        float x2size = x2pixels / pad2width;
+        float y2size = y2pixels / pad2height;
+        
+        TAxis* x2axis = ratio_hist1->GetXaxis();
+        TAxis* y2axis = ratio_hist1->GetYaxis();
+        
+        x2axis->SetTitleOffset(1.0); // Important for seeing x-axis title!
+        x2axis->SetTitleSize(0.15);
+        x2axis->SetLabelSize(x2size);
+        x2axis->SetRangeUser(xAxisMin, xAxisMax);
+        
+        y2axis->SetTitle("(val - ref)/ref");
+        y2axis->SetTitleOffset(0.3);
+        y2axis->SetTitleSize(0.12);
+//        y2axis->SetRangeUser(0,2.5);
+        y2axis->SetLabelSize(y2size);
+        y2axis->SetNdivisions(4);
 
+        //It's time to draw (#yolo)!
         if (chi2Switch.compare("Chi2") == 0) {
+            
+            // Title Time
+            
             //Draw and save histograms
-            ref_hist1->SetFillColor(40);//42 Originally, now 40 which is lgiht brown
+            pad1->cd();
+            ref_hist1->SetFillColor(40);//42 Originally, now 40 which is light brown
             ref_hist1->Draw("hist");
             val_hist1->SetLineStyle(1);
             if (statSwitch.compare("Statrv") == 0) val_hist1->Draw("sames e0");
             else val_hist1->Draw("same e0");
+
+            //Draw ratio
+            pad2->cd();
+            ratio_hist1->Draw();
+            pad1->cd();
 
             //Get p-value from chi2 test
             const float NCHI2MIN = 0.01;
@@ -278,10 +384,20 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             ptchi2->AddText(tempbuff);
             ptchi2->Draw();
         } else {
+            
+            // Title Time
+            
+            
             //Draw and save histograms
+            pad1->cd();
             ref_hist1->Draw("hist");
             if (statSwitch.compare("Statrv") == 0) val_hist1->Draw("hist sames");
             else val_hist1->Draw("hist same");
+
+            //Draw ratio
+            pad2->cd();
+            ratio_hist1->Draw();
+            pad1->cd();
         }
 
         //Stat Box where required
@@ -548,8 +664,6 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 
         if (xTitleCheck != "NoTitle") ref_hist2D->GetXaxis()->SetTitle(xAxisTitle.c_str());
         ref_hist2D->Draw("colz");
-	//Set ZMin = 0
-        ref_hist2D->SetMinimum(0);
         leg1->Draw();
         myc->SaveAs(("ref_" + outLabel).c_str());
 
@@ -560,10 +674,6 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 
         if (xTitleCheck != "NoTitle") val_hist2D->GetXaxis()->SetTitle(xAxisTitle.c_str());
         val_hist2D->Draw("colz");
-
-	//Set ZMin = 0
-        val_hist2D->SetMinimum(0);
-	
         leg2->Draw();
         myc->SaveAs(("val_" + outLabel).c_str());
     }
