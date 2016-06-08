@@ -34,6 +34,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -74,6 +75,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -121,6 +123,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -140,6 +143,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -159,6 +163,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -206,6 +211,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -253,6 +259,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -300,6 +307,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -340,6 +348,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -380,6 +389,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -420,6 +430,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -439,6 +450,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -458,6 +470,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -477,6 +490,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "noStat",
         "valColor": 42,
@@ -524,6 +538,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -571,6 +586,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -618,6 +634,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -665,6 +682,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -712,6 +730,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -759,6 +778,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -806,6 +826,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -853,6 +874,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -900,6 +922,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -947,6 +970,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -994,6 +1018,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1041,6 +1066,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1088,6 +1114,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1135,6 +1162,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1182,6 +1210,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1229,6 +1258,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1276,6 +1306,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1323,6 +1354,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -1370,6 +1402,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -1417,6 +1450,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1464,6 +1498,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1511,6 +1546,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1558,6 +1594,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1605,6 +1642,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1652,6 +1690,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1699,6 +1738,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1746,6 +1786,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1793,6 +1834,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1840,6 +1882,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1887,6 +1930,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1934,6 +1978,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -1981,6 +2026,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -2028,6 +2074,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -2075,6 +2122,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -2115,6 +2163,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 1,
         "statFlag": "Statrv",
         "valColor": 2,
@@ -2155,6 +2204,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 1,
         "statFlag": "Statrv",
         "valColor": 2,
@@ -2195,6 +2245,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 1,
         "statFlag": "Statrv",
         "valColor": 2,
@@ -2235,6 +2286,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 1,
         "statFlag": "Statrv",
         "valColor": 2,
@@ -2275,6 +2327,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2315,6 +2368,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2355,6 +2409,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2395,6 +2450,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2435,6 +2491,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2475,6 +2532,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2515,6 +2573,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2555,6 +2614,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2595,6 +2655,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2635,6 +2696,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -2675,6 +2737,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2715,6 +2778,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2755,6 +2819,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2795,6 +2860,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2835,6 +2901,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2875,6 +2942,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2915,6 +2983,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2955,6 +3024,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -2995,6 +3065,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3035,6 +3106,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3075,6 +3147,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3115,6 +3188,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3155,6 +3229,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3195,6 +3270,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3235,6 +3311,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3275,6 +3352,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3315,6 +3393,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3355,6 +3434,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3395,6 +3475,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3435,6 +3516,7 @@
             "yAxisMax": 1000.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3475,6 +3557,7 @@
             "yAxisMax": 1000.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3515,6 +3598,7 @@
             "yAxisMax": 4000.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3555,6 +3639,7 @@
             "yAxisMax": 500.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3595,6 +3680,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3635,6 +3721,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3675,6 +3762,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3715,6 +3803,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3755,6 +3844,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3795,6 +3885,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3835,6 +3926,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3875,6 +3967,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3915,6 +4008,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3955,6 +4049,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -3974,6 +4069,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -3993,6 +4089,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4012,6 +4109,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4031,6 +4129,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4050,6 +4149,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4097,6 +4197,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4144,6 +4245,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4191,6 +4293,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4238,6 +4341,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4285,6 +4389,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4332,6 +4437,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4379,6 +4485,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 1e-08
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4426,6 +4533,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -4473,6 +4581,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4520,6 +4629,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4567,6 +4677,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4614,6 +4725,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4661,6 +4773,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -4708,6 +4821,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -4755,6 +4869,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -4802,6 +4917,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -4849,6 +4965,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4896,6 +5013,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4943,6 +5061,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -4990,6 +5109,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -5030,6 +5150,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5070,6 +5191,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5110,6 +5232,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5157,6 +5280,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5176,6 +5300,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5195,6 +5320,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5214,6 +5340,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 53,
         "statFlag": "NoStat",
         "valColor": 42,
@@ -5261,6 +5388,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -5308,6 +5436,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -5322,21 +5451,21 @@
         "outLabel": "N_HF.gif",
         "rangeHigh": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
+            "xAxisMax": 600.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
+            "xAxisMax": 500.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
+            "xAxisMax": 600.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -5355,6 +5484,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -5402,6 +5532,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -5449,6 +5580,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -5496,6 +5628,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -5543,6 +5676,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -5590,6 +5724,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -5616,6 +5751,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -5642,6 +5778,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -5689,6 +5826,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5736,6 +5874,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5762,6 +5901,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5788,6 +5928,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5814,6 +5955,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5861,6 +6003,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5908,6 +6051,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5955,6 +6099,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -5981,6 +6126,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6007,6 +6153,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6054,6 +6201,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6101,6 +6249,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6148,6 +6297,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6195,6 +6345,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6242,6 +6393,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6268,6 +6420,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6294,6 +6447,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6320,6 +6474,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6367,6 +6522,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6414,6 +6570,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6461,6 +6618,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6487,6 +6645,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6513,6 +6672,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6560,6 +6720,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6607,6 +6768,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6654,6 +6816,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6673,6 +6836,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6692,6 +6856,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6711,6 +6876,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6730,6 +6896,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6749,6 +6916,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6768,6 +6936,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6787,6 +6956,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6806,6 +6976,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6825,6 +6996,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6844,6 +7016,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6863,6 +7036,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -6882,6 +7056,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6901,6 +7076,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6920,6 +7096,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6939,6 +7116,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6958,6 +7136,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6977,6 +7156,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -6996,6 +7176,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7015,6 +7196,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7034,6 +7216,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7053,6 +7236,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7072,6 +7256,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7091,6 +7276,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7110,6 +7296,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7129,6 +7316,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7148,6 +7336,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7167,6 +7356,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7186,6 +7376,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7205,6 +7396,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7224,6 +7416,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7243,6 +7436,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7262,6 +7456,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7281,6 +7476,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7300,6 +7496,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7319,6 +7516,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7338,6 +7536,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7357,6 +7556,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7376,6 +7576,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7395,6 +7596,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7414,6 +7616,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7433,6 +7636,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7452,6 +7656,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7471,6 +7676,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7490,6 +7696,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7509,6 +7716,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7528,6 +7736,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7547,6 +7756,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7566,6 +7776,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7606,6 +7817,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7646,6 +7858,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7686,6 +7899,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7726,6 +7940,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7766,6 +7981,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
@@ -7785,6 +8001,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -7804,6 +8021,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -7823,6 +8041,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -7842,6 +8061,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -7861,6 +8081,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7880,6 +8101,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7899,6 +8121,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7918,6 +8141,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7937,6 +8161,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7956,6 +8181,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7975,6 +8201,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -7994,6 +8221,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8013,6 +8241,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8032,6 +8261,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8051,6 +8281,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8070,6 +8301,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8089,6 +8321,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8108,6 +8341,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8127,6 +8361,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8146,6 +8381,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8165,6 +8401,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8184,6 +8421,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8203,6 +8441,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8222,6 +8461,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8241,6 +8481,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8260,6 +8501,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8279,6 +8521,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8298,6 +8541,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8317,6 +8561,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8336,6 +8581,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8355,6 +8601,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8374,6 +8621,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8393,6 +8641,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8412,6 +8661,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8431,6 +8681,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8450,6 +8701,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8469,6 +8721,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8488,6 +8741,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8507,6 +8761,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8526,6 +8781,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8545,6 +8801,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8564,6 +8821,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8583,6 +8841,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8602,6 +8861,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8621,6 +8881,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8640,6 +8901,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8659,6 +8921,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8678,6 +8941,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8697,6 +8961,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8716,6 +8981,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8735,6 +9001,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8754,6 +9021,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8773,6 +9041,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8792,6 +9061,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8811,6 +9081,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8830,6 +9101,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8849,6 +9121,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8868,6 +9141,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8887,6 +9161,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8906,6 +9181,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8925,6 +9201,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8944,6 +9221,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8963,6 +9241,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -8982,6 +9261,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9001,6 +9281,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9020,6 +9301,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9039,6 +9321,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9058,6 +9341,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9077,6 +9361,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9096,6 +9381,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9115,6 +9401,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9134,6 +9421,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9153,6 +9441,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9172,6 +9461,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9191,6 +9481,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9210,6 +9501,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9229,6 +9521,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9248,6 +9541,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9267,6 +9561,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9286,6 +9581,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9305,6 +9601,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9324,6 +9621,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9343,6 +9641,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9362,6 +9661,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9381,6 +9681,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9400,6 +9701,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9419,6 +9721,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9438,6 +9741,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9457,6 +9761,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9476,6 +9781,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9495,6 +9801,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9514,6 +9821,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9533,6 +9841,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9552,6 +9861,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9571,6 +9881,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9590,6 +9901,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9609,6 +9921,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9628,6 +9941,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9647,6 +9961,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9666,6 +9981,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9685,6 +10001,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9704,6 +10021,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9723,6 +10041,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9742,6 +10061,7 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
@@ -9761,6 +10081,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9780,6 +10101,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9799,6 +10121,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9818,6 +10141,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9837,6 +10161,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9856,6 +10181,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9875,6 +10201,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9894,6 +10221,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9913,6 +10241,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9932,6 +10261,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9951,6 +10281,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9970,6 +10301,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -9989,6 +10321,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10008,6 +10341,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10027,6 +10361,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10046,6 +10381,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10065,6 +10401,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10084,6 +10421,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10103,6 +10441,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10122,6 +10461,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10141,6 +10481,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10160,6 +10501,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10179,6 +10521,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10198,6 +10541,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10217,6 +10561,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10236,6 +10581,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10255,6 +10601,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10274,6 +10621,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10293,6 +10641,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10312,6 +10661,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10331,6 +10681,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10350,6 +10701,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10369,6 +10721,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10388,6 +10741,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10407,6 +10761,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10426,6 +10781,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10445,6 +10801,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10464,6 +10821,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10483,6 +10841,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10502,6 +10861,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10521,6 +10881,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10540,6 +10901,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10559,6 +10921,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10578,6 +10941,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10597,6 +10961,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10616,6 +10981,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10635,6 +11001,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10654,6 +11021,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10673,6 +11041,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10692,6 +11061,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10711,6 +11081,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10730,6 +11101,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10749,6 +11121,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
@@ -10768,6 +11141,7 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,

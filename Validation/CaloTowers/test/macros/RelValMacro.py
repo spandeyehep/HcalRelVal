@@ -34,11 +34,12 @@ if len(sys.argv) == 6:
                     statFlag = spaceEscape(inputFile[histogram]['statFlag'])
                     chi2Flag = spaceEscape(inputFile[histogram]['chi2Flag'])
                     logFlag = spaceEscape(inputFile[histogram]['logFlag'])
+                    ratioFlag = spaceEscape(inputFile[histogram]['ratioFlag'])
                     refColor = spaceEscape(inputFile[histogram]['refColor'])
                     valColor = spaceEscape(inputFile[histogram]['valColor'])
                     xAxisTitle = spaceEscape(inputFile[histogram]['xAxisTitle'])
                     histName2 = spaceEscape(inputFile[histogram]['histName2'])
-                    cmd = ref_vers + "|" + val_vers + "|" + rfname + "|" + vfname + "|" + histName + "|" + ofileName + "|" + nRebin + "|" + xAxisMin + "|" + xAxisMax + "|" + yAxisMin + "|" + yAxisMax + "|" + dimFlag + "|" + statFlag + "|" + chi2Flag + "|" + logFlag + "|" + refColor + "|" + valColor + "|" + xAxisTitle + "|" + histName2
+                    cmd = ref_vers + "|" + val_vers + "|" + rfname + "|" + vfname + "|" + histName + "|" + ofileName + "|" + nRebin + "|" + xAxisMin + "|" + xAxisMax + "|" + yAxisMin + "|" + yAxisMax + "|" + dimFlag + "|" + statFlag + "|" + chi2Flag + "|" + logFlag + "|" + ratioFlag + "|" + refColor + "|" + valColor + "|" + xAxisTitle + "|" + histName2
                     RelValMacro.RelValMacro(cmd)
 else:
     print "Usage: ./RelValMacro.py ref_vers val_vers ref_file_name val_file_name range[High/Medium/Low]"
