@@ -125,7 +125,7 @@ dsDATAFlags = {'256677__JetHT__':'JetHT','256677__ZeroBias__':'ZeroBias'} #New_o
 #JetPrefix = "DQM_V0001_R000191226"
 
 # blank curl command 
-curlMC = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval-test/data/browse/ROOT/RelVal/%(relValDIR)s"
+curlMC = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval/data/browse/ROOT/RelVal/%(relValDIR)s"
 curlDATA = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval/data/browse/ROOT/RelValData/%(relValDIR)s"
 # output file name blank
 ofnBlank = "HcalRecHitValidationRelVal_%(sample)s_%(label)s_%(info)s.root"
