@@ -3727,6 +3727,170 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_et"
     },
+    "HcalDigiTask/HcalDigiTask_tp_ave_et_ieta_v0": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "noLog",
+        "outLabel": "HcalDigiTask_tp_ave_et_ieta_v0.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ave_et_ieta (HF 3x2)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_et_v0": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_et_v0.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_et (HF 3x2)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ave_et_ieta_v1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "noLog",
+        "outLabel": "HcalDigiTask_tp_ave_et_ieta_v1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ave_et_ieta (HF 1x1)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_et_v1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_et_v1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 190,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_et (HF 1x1)"
+    },
     "HcalDigiTask/HcalDigiTask_tp_et_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
@@ -3850,6 +4014,88 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_et_HF"
     },
+    "HcalDigiTask/HcalDigiTask_tp_et_HF_v0": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_et_HF_v0.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_et_HF (HF 3x2)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_et_HF_v1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_et_HF_v1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 150,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_et_HF (HF 1x1)"
+    },
     "HcalDigiTask/HcalDigiTask_tp_ntp": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
@@ -3931,6 +4177,170 @@
         "statFlag": "Statrv",
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ntp_v0": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_ntp_v0.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 1000,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ntp (HF 3x2)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ntp_10_ieta_v0": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_ntp_10_ieta_v0.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta (HF 3x2)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ntp_v1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_ntp_v1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 2,
+            "xAxisMax": 1000,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ntp (HF 1x1)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ntp_10_ieta_v1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_ntp_10_ieta_v1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 35,
+            "xAxisMin": -35,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta (HF 1x1)"
     },
     "HcalDigiTask/HcalDigiTask_tp_ntp_HB": {
         "chi2Flag": "Chi2",
@@ -4054,6 +4464,88 @@
         "statFlag": "noStat",
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_ntp_HF"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ntp_HF_v0": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_ntp_HF_v0.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ntp_HF (HF 3x2)"
+    },
+    "HcalDigiTask/HcalDigiTask_tp_ntp_HF_v1": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log",
+        "outLabel": "HcalDigiTask_tp_ntp_HF_v1.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 100,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 500,
+            "xAxisMin": 0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_tp_ntp_HF (HF 1x1)"
     },
     "HcalNoiseRatesTask/hRBXEnergy": {
         "chi2Flag": "Chi2",
