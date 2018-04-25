@@ -36,7 +36,7 @@ void prn(T1 s1, T2 s2)
 
 void RelValMacro(std::string seriesOfTubes);
 void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::string val_vers, std::string histName, std::string outLabel, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax,
-                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2 = "");
+                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string normFlag, std::string histName2 = "");
 template<class T>
 void setObjProps(T obj);
 
@@ -44,7 +44,7 @@ class DirectoryFinder
 {
 private:
     std::map<std::string, TDirectory*> ptdMap;
-    TDirectory* findDirectory( TDirectory *target, std::string& s);
+    TDirectory* findDirectory( TDirectory *target, std::string& s, int dig = 2);
 public:
     TDirectory* operator()(TDirectory *target, std::string& s);
 } dfRef, dfVal;
@@ -79,7 +79,13 @@ void RelValMacro(std::string seriesOfTubes)
     int valCol = std::stoi(props[17]);
     std::string xAxisTitle = props[18];
     std::string histName2 = props[19];
-    
+    std::string normFlag = props[20];
+
+    if(strcmp(histName.c_str(),"HcalDigiTask/HcalDigiTask_signal_amplitude_HE") == 0) {
+
+      std::cout<<"=================="<<std::endl;
+      std::cout<<xAxisMin<< "  "<<xAxisMax <<std::endl;
+    }
     //Warning!!! This rootlogon hacks the root color pallate.  This should probably be rewritten.
     setColors();
     
@@ -93,7 +99,7 @@ void RelValMacro(std::string seriesOfTubes)
         if(histName2 == "none") histName2 = "";
         
         //Make plot
-        ProcessRelVal(Ref_File, Val_File, ref_vers, val_vers, histName, ofileName, nRebin, xAxisMin, xAxisMax, yAxisMin, yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, ratioFlag, refCol, valCol, xAxisTitle, histName2);
+        ProcessRelVal(Ref_File, Val_File, ref_vers, val_vers, histName, ofileName, nRebin, xAxisMin, xAxisMax, yAxisMin, yAxisMax, dimFlag, statFlag, chi2Flag, logFlag, ratioFlag, refCol, valCol, xAxisTitle, histName2, normFlag);
 	}
 	else
 	{
@@ -108,7 +114,7 @@ void RelValMacro(std::string seriesOfTubes)
 }
 
 void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::string val_vers, std::string histName, std::string outLabel, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax,
-                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2)
+                   std::string dimSwitch, std::string statSwitch, std::string chi2Switch, std::string logSwitch, std::string ratioFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2, std::string normFlag)
 {
     std::string NormHist = "HcalRecHitTask/N_HB";
 
@@ -120,6 +126,8 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     int slashLocN = NormHist.rfind("/");
     std::string histDirN = NormHist.substr(0, slashLocN);
     if(slashLocN < NormHist.size() - 1) NormHist = NormHist.substr(slashLocN + 1, NormHist.size());
+
+    std::cout << "Processing \"" << histDir << "/" << histName << "\"" << std::endl;
 
     //Get objects from TFiles
     TDirectory *refTD = dfRef(ref_file, histDir);
@@ -152,12 +160,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     else 
     {
 	std::cout << "Cannot find directory \"" << histDirN << "\" in file \"" << ref_file->GetName() << "\"" << std::endl;
-	return;
     }
     if(!refObjN)
     {
 	std::cout << "Cannot find histogram \"" << histDirN << "/" << NormHist << "\" in file \"" << ref_file->GetName() << "\"" << std::endl;
-	return;
     }
 
     TDirectory *valTD = dfVal(val_file, histDir);
@@ -188,13 +194,40 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
     else
     {
 	std::cout << "Cannot find directory \"" << histDirN << "\" in file \"" << val_file->GetName() << "\"" << std::endl;
-	return;
     }
     if(!valObjN)
     {
 	std::cout << "Cannot find histogram \"" << histDirN << "/" << NormHist << "\" in file \"" << val_file->GetName() << "\"" << std::endl;
-	return;
     }
+
+    //Try to continue processing even if N_HB is missing
+    //We only care if the ratio flag is set
+    //If we can't find any way to normalize the plots, unset the ratioflag
+    if(std::stoi(ratioFlag) == 1){
+    if(!refTDN && !valTDN)
+       {
+           std::cout << "Cannot find directory \"" << histDirN << "\" in either file \"" << std::endl;
+           ratioFlag = "0";
+       }
+
+       if(!refObjN && !valObjN)
+       {
+           std::cout << "Cannot find histogram \"" << histDirN << "/" << NormHist << "\" in either file \"" << std::endl;
+           ratioFlag = "0";
+       }
+       else if(!valObjN)
+       {
+           valObjN = refObjN->Clone();
+           std::cout << "Using histogram \"" << NormHist << "from file \"" << ref_file->GetName() << std::endl;
+       }
+       else if(!refObjN)
+       {
+           refObjN = valObjN->Clone();
+           std::cout << "Using histogram \"" << NormHist << "from file \"" << val_file->GetName() << std::endl;
+       }
+    }// Make sure we can normalize ratio plots
+
+    std::cout << "Loaded \"" << histDir << "/" << histName << "\"" << std::endl;
 
     //Format canvas
     TCanvas *myc = 0;
@@ -211,8 +244,13 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 // Ratio Flag
 
     float nRef =1, nVal = 1;
-    if(std::stoi(ratioFlag)) {
    
+    std::cout << "Ratio Flag: " << std::stoi(ratioFlag) << std::endl;
+
+    if(std::stoi(ratioFlag) == 1) {
+   
+        std::cout << "Histogram will include ratio" << std::endl;
+
 	TH1* refN_HB = (TH1*)refObjN;
 	TH1* valN_HB = (TH1*)valObjN;
 
@@ -224,12 +262,13 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         pad1 = new TPad("pad1","pad1", 0.0, 0.3, 1.0, 1.0, 0);
         pad1->SetBottomMargin(1); // Upper and lower plots are joined (0) or separate (1)
         pad1->SetGridx();         // Vertical grid
-
-        pad2 = new TPad("pad2","pad2", 0.0, 0.05, 1.0, 0.3, 0);
+	pad1->SetFillColor(kCyan-10); //spandey
+	pad2 = new TPad("pad2","pad2", 0.0, 0.03, 1.0, 0.3, 0);  //spandey updated pad size
         pad2->SetTopMargin(0);
         pad2->SetBottomMargin(0.2);
         pad2->SetGridx(); // vertical grid
         pad2->SetGridy(); // horizontal grid
+	pad2->SetFillColor(kCyan-10); //spandey
 
         pad1->Draw();
         pad2->Draw();
@@ -283,9 +322,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         TH1* ratio_hist1;
         
         // Ratio Flag
-        if(std::stoi(ratioFlag)){
+        if(std::stoi(ratioFlag) == 1){
 	    //Let's normalize the val plot to have the same number of events as the ref plot
-
+	    //But only if normFlag isn't tripped
+	    if(normFlag.compare("Norm") == 0)
 	    val_hist1->Scale(nRef/nVal);
         
             //Create Copies (Clones) to use in Ratio Plot
@@ -327,15 +367,26 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 //            y2axis->SetTitleSize(0.12);
 //            y2axis->SetRangeUser(0,2.5);
 //            y2axis->SetLabelSize(y2size);
-            
+
+// Sanitizing axis inputs    
+            //Min/Max Convetion: Default AxisMin = 0. Default AxisMax = -1.
+            //xAxis
+            if (xAxisMin == 0) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
+            if (xAxisMax < 0) xAxisMax = ref_hist1->GetXaxis()->GetXmax();
+	
+	    //Sanitize xAxis inputs
+            if (xAxisMin < ref_hist1->GetXaxis()->GetXmin()) xAxisMin = ref_hist1->GetXaxis()->GetXmin();
+	    if (xAxisMax > ref_hist1->GetXaxis()->GetXmax()) xAxisMax = ref_hist1->GetXaxis()->GetXmax();
+
             ratio_hist1->SetTitle("");
             ratio_hist1->SetLineStyle(1);
             ratio_hist1->SetMarkerStyle(1);
             ratio_hist1->SetMarkerSize(0.02);
             
             //Format Ratio Plot
+	    //lets get schwifty
             float pad2width = pad2->GetWw();
-            float pad2height = pad2->GetWh() * pad2->GetAbsHNDC();
+            float pad2height = pad2->GetWh() * pad2->GetAbsHNDC() ;
             float x2pixels = 100;
             float y2pixels = 15;
             float x2size = x2pixels / pad2width;
@@ -344,9 +395,10 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             TAxis* x2axis = ratio_hist1->GetXaxis();
             TAxis* y2axis = ratio_hist1->GetYaxis();
             
-            x2axis->SetTitleOffset(1.0); // Important for seeing x-axis title!
-            x2axis->SetTitleSize(0.15);
-            x2axis->SetLabelSize(x2size);
+
+	    x2axis->SetTitleOffset(1.0); // Important for seeing x-axis title!
+	    x2axis->SetTitleSize(0.1); //spandey
+            x2axis->SetLabelSize(x2size*0.64);
             x2axis->SetRangeUser(xAxisMin, xAxisMax);
             
             y2axis->SetTitle("(val - ref)/ref");
@@ -382,6 +434,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         if (xAxisMax > 0 || xAxisMin != 0) {
             ref_hist1->GetXaxis()->SetRangeUser(xAxisMin, xAxisMax);
             val_hist1->GetXaxis()->SetRangeUser(xAxisMin, xAxisMax);
+
         }
         //yAxis
         if (yAxisMin != 0) ref_hist1->SetMinimum(yAxisMin);
@@ -395,7 +448,8 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
         //Title
 //        if (xTitleCheck != "NoTitle") ref_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
         ref_hist1->GetXaxis()->SetTitle("");
-        if (xTitleCheck != "NoTitle") ratio_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
+        if (xTitleCheck != "NoTitle" && std::stoi(ratioFlag) == 1) ratio_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
+        if (xTitleCheck != "NoTitle" && std::stoi(ratioFlag) != 1) ref_hist1->GetXaxis()->SetTitle(xAxisTitle.c_str());
 
         //Different histo colors and styles
         ref_hist1->SetTitle("");
@@ -426,7 +480,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             // Title Time
             
             //Draw and save histograms
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 pad1->cd();
             }
             ref_hist1->SetFillColor(40);//42 Originally, now 40 which is light brown
@@ -436,11 +490,13 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             else val_hist1->Draw("same e0");
             
             // Ratio Flag
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 //Draw ratio
                 pad2->cd();
+	        //pad1->cd();
                 ratio_hist1->Draw();
                 pad1->cd();
+		//pad2->cd();
             }
 
             //Get p-value from chi2 test
@@ -467,7 +523,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             
             
             //Draw and save histograms
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 pad1->cd();
             }
             ref_hist1->Draw("hist");
@@ -476,7 +532,7 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
 
             
             // Ratio Flag
-            if(std::stoi(ratioFlag)){
+            if(std::stoi(ratioFlag) == 1){
                 //Draw ratio
                 pad2->cd();
                 ratio_hist1->Draw();
@@ -740,6 +796,9 @@ void ProcessRelVal(TFile *ref_file, TFile *val_file, std::string ref_vers, std::
             ref_hist2D->GetYaxis()->SetRangeUser(yAxisMin, yAxisMax);
             val_hist2D->GetYaxis()->SetRangeUser(yAxisMin, yAxisMax);
         }
+        //Set bin minimum to 0
+        ref_hist2D->SetMinimum(0.0);
+        val_hist2D->SetMinimum(0.0);
 
         TLegend *leg1 = new TLegend(0.50, 0.91, 0.84, 0.99, "", "brNDC");
         leg1->SetBorderSize(2);
@@ -775,7 +834,7 @@ TDirectory* DirectoryFinder::operator()(TDirectory *target, std::string& s)
     else                               return ptdMap[s];
 }
 
-TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s)
+TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s, int dig)
 {
     TDirectory *retval = 0;
 
@@ -784,6 +843,9 @@ TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s)
     TKey *key, *oldkey=0;
     while((key = (TKey*)nextkey()))
     {
+
+        //std::cout << "Found " << key->ReadObj()->GetName() << std::endl;
+
 	//keep only the highest cycle number for each key                                                                                                                                                                                    
 	if (oldkey && !strcmp(oldkey->GetName(),key->GetName())) continue;
 
@@ -799,13 +861,12 @@ TDirectory* DirectoryFinder::findDirectory( TDirectory *target, std::string& s)
 
 	    if(strcmp(s.c_str(), obj->GetName()) == 0) return (TDirectory*)obj;
 
-	    if((retval = findDirectory((TDirectory*)obj, s))) break;
+	    if((retval = findDirectory((TDirectory*)obj, s, dig-1))) break;
 
-	}
-	else
-	{
-	    break;
-	}
+	} else if(dig < 1){
+            break;
+        }
+
     }
 
     return retval;
