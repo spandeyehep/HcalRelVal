@@ -9,6 +9,7 @@ parser = OptionParser(usage=usage,version=version)
 parser.add_option("-p", "--printDataSets", action="store_true", dest="printDS", default=False, help="Print datasets without attempting to download.")
 parser.add_option("-M", "--MC", action="store_true", dest="getMC", default=False, help="Get DQM files for MC campaign.")
 parser.add_option("-D", "--DATA", action="store_true", dest="getDATA", default=False, help="Get DQM files for DATA campaign.")
+parser.add_option("-2", "--2023", action="store_true", dest="get2023", default=False, help="Get DQM files for 2023 campaign.")
 (options, args) = parser.parse_args()
 
 ##Begin declaration of Functions
@@ -48,7 +49,9 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                     # extract dataset path
                     path = line.split('\'')[1].strip()
                     #print "Getting DQM output from dataset: %s"%path
-                    print path
+                    if (path.find("Ideal") > 0 or path.find("design") > 0 or path.find("FastSim") > 0 or path.find("DQM") < 0 or path.find("Pixel") > 0 ):  #skip for unnecessary samples
+                        continue
+                    print path.split("/")[-1] #path
                     if printDS:
                         continue
 
@@ -77,7 +80,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                         info = info.strip("_")
 
                     ofn = ofnBlank%{"sample":dsFlags[str],"label":slabel,"info":info}
-                
+                    print "ofn = ",ofn
                     #Check if file exists already
                     if not os.path.isfile(ofn):
                         # copy file with curl
@@ -101,12 +104,12 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 
     # Copy the single pion scan part from Salavat's directory
     #    spFileName = "pi50scan%s_fullGeom_ECALHCAL_CaloTowers.root"%slabel #->original line
-    spFileName = "pi50scan%s_ECALHCAL_CaloTowers.root"%slabel 
-    cpCommand = "cp /afs/cern.ch/user/a/abdullin/public/pi50_scan/%s ."%spFileName
-    if not os.path.isfile(spFileName):
-        print cpCommand
-        os.system(cpCommand)
-        print ""
+    #spFileName = "pi50scan%s_ECALHCAL_CaloTowers.root"%slabel 
+    #cpCommand = "cp /afs/cern.ch/user/a/abdullin/public/pi50_scan/%s ."%spFileName
+    #if not os.path.isfile(spFileName):
+    #    print cpCommand
+    #    os.system(cpCommand)
+    #    print ""
 
 ##End Functions
 
@@ -114,9 +117,17 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 
 # This is a dictionary of flags to pull out the datasets of interest mapped to the desired name from the hcal script
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
-#dsDATAFlags = {'191226__Jet__':'Jet', '149011__MinimumBias__':'MinBias'}
-#dsDATAFlags = {'191226__Jet__':'Jet', '208307__MinimumBias__':'MinBias'}  #Original
-dsDATAFlags = {'256677__JetHT__':'JetHT','256677__ZeroBias__':'ZeroBias'} #New_original
+ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_14TeV__':'MinBias'}
+
+# dsDATAFlags = {'301998__JetHT__':'JetHT', '301998__ZeroBias__':'ZeroBias'}  #Original
+dsDATAFlags = {'305064__JetHT__':'JetHT','305064__ZeroBias__':'ZeroBias'} # 2017F
+# dsDATAFlags = {'297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias'} # 2017B
+#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias'} #2016B & 2017B dataset
+
+#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias','302663__JetHT__':'JetHT','302663__ZeroBias__':'ZeroBias'} #2016B & 2017B & 2017D dataset
+
+
+#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias','305064__JetHT__':'JetHT','305064__ZeroBias__':'ZeroBias'} #2016B & 2017B & 2017D dataset
 #dsDATAFlags = {'256677__SingleMuon__':'SingleMuon'} #New_original
 #dsDATAFlags = {'254790__JetHT__':'JetHT','254790__ZeroBias__':'ZeroBias','254790__SingleMuon__':'SingleMuon'} #New_new
 # filename prefix 
@@ -141,10 +152,11 @@ if len(args) < 1:
     exit(0)
 
 #Make sure a Dataset is specified
-if not options.getMC and not options.getDATA:
+if not options.getMC and not options.getDATA and not options.get2023:
     print "You must specify a dataset:"
     print "    -M : Monte Carlo"
     print "    -D : Data"
+    print "    -2 : 2023"
     exit(0)
 
 # gather input parameter
@@ -179,6 +191,15 @@ if options.getMC:
                  relValDIR = relValDIR,
                  printDS = options.printDS,
                  camType = "MC")
+
+if options.get2023:
+    getDataSets( dsFlags = ds2023Flags,
+                 curl = curlMC,
+                 label = label,
+                 slabel = slabel,
+                 relValDIR = relValDIR,
+                 printDS = options.printDS,
+                 camType = "2023")
 
 if options.getDATA:
     getDataSets( dsFlags = dsDATAFlags,

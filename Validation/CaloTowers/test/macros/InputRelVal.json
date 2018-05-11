@@ -1,10 +1,697 @@
 {
-    "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_HB": {
+       "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth4_HO": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HO.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HO Depth 4"
+    },
+      "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth4_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HF Depth 4"
+    },
+      "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth3_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth3_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HF Depth 3"
+    },
+      "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth2_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HF Depth 2"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HF Depth 1"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth7_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth7_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 7"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth6_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth6_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 6"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth5_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth5_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 5"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth4_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth4_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 4"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth3_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth3_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 3"
+    },
+     "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth2_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 2"
+    },
+    "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HE Depth 1"
+    },
+    "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth2_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth2_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HB Depth 2"
+    },
+    "HcalDigiTask/HcalDigiTask_ieta_iphi_occupancy_map_depth1_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_ieta_iphi_occupancy_map_depth1_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "Occupancy Map HB Depth 1"
+    },
+   "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_HB": {
         "chi2Flag": "noChi2",
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_profile_HB",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_EM_Energy_Timing_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -45,7 +732,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_profile_HE",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_EM_Energy_Timing_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -86,7 +774,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_profile_HF",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_EM_Energy_Timing_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -134,7 +823,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_profile_Low_HB",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_EM_Energy_Timing_HB.gif",
         "rangeLow": {
             "rebin": 1,
@@ -154,7 +844,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_EM_Energy_Timing_profile_Low_HE",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_EM_Energy_Timing_HE.gif",
         "rangeLow": {
             "rebin": 1,
@@ -174,7 +865,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_EM_Timing_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -222,7 +914,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_EM_Timing_HE.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -270,7 +963,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_EM_Timing_HF.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -318,7 +1012,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_HAD_Energy_Timing_profile_HB",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_HAD_Energy_Timing_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -359,7 +1054,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_HAD_Energy_Timing_profile_HE",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_HAD_Energy_Timing_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -400,7 +1096,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_HAD_Energy_Timing_profile_HF",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_HAD_Energy_Timing_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -441,7 +1138,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_HAD_Energy_Timing_profile_Low_HB",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_HAD_Energy_Timing_HB.gif",
         "rangeLow": {
             "rebin": 1,
@@ -461,7 +1159,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_HAD_Energy_Timing_profile_Low_HE",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_HAD_Energy_Timing_HE.gif",
         "rangeLow": {
             "rebin": 1,
@@ -481,7 +1180,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "CaloTowersTask/CaloTowersTask_HAD_Energy_Timing_profile_Low_HF",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_HAD_Energy_Timing_HF.gif",
         "rangeLow": {
             "rebin": 1,
@@ -501,7 +1201,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_HAD_Timing_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -549,7 +1250,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_HAD_Timing_HE.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -597,7 +1299,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_HAD_Timing_HF.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -645,7 +1348,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_MET_HB.gif",
         "rangeHigh": {
             "rebin": 20,
@@ -693,7 +1397,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_MET_HE.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -741,7 +1446,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_MET_HF.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -789,7 +1495,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_SET_HB.gif",
         "rangeHigh": {
             "rebin": 100,
@@ -837,7 +1544,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_SET_HE.gif",
         "rangeHigh": {
             "rebin": 20,
@@ -885,7 +1593,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_SET_HF.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -933,7 +1642,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_Energy_in_ECAL_HB.gif",
         "rangeHigh": {
             "rebin": 50,
@@ -981,7 +1691,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_Energy_in_ECAL_HE.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -1029,7 +1740,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_Energy_in_ECAL_HF.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -1077,7 +1789,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_Energy_in_HCAL_HB.gif",
         "rangeHigh": {
             "rebin": 50,
@@ -1125,7 +1838,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_Energy_in_HCAL_HE.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -1173,7 +1887,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_Energy_in_HCAL_HF.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -1221,7 +1936,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_CaloTowers_Ntowers_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -1269,7 +1985,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_CaloTowers_Ntowers_HE.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -1317,7 +2034,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HF_CaloTowers_Ntowers_HF.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -1365,7 +2083,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "CaloTowers_occupancy_vs_ieta.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1413,7 +2132,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Ecal_EB_CaloTowers_numBadCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1461,7 +2181,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Ecal_EE_CaloTowers_numBadCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1509,7 +2230,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HB_CaloTowers_numBadCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1557,7 +2279,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HE_CaloTowers_numBadCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1605,7 +2328,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HF_CaloTowers_numBadCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1653,7 +2377,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Ecal_EB_CaloTowers_numPrbCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1701,7 +2426,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Ecal_EE_CaloTowers_numPrbCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1749,7 +2475,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HB_CaloTowers_numPrbCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1797,7 +2524,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HE_CaloTowers_numPrbCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1845,7 +2573,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HF_CaloTowers_numPrbCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1893,7 +2622,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Ecal_EB_CaloTowers_numRcvCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1941,7 +2671,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Ecal_EE_CaloTowers_numRcvCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -1989,7 +2720,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HB_CaloTowers_numRcvCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2037,7 +2769,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HE_CaloTowers_numRcvCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2085,7 +2818,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "Hcal_HF_CaloTowers_numRcvCells.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2133,11 +2867,12 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_Ndigis_HB.gif",
         "rangeHigh": {
             "rebin": 10,
-            "xAxisMax": 800.0,
+            "xAxisMax": 1000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2158,7 +2893,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 1200.0,
+            "xAxisMax": 2500.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2174,11 +2909,12 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_Ndigis_HE.gif",
         "rangeHigh": {
             "rebin": 10,
-            "xAxisMax": 800.0,
+            "xAxisMax": 1500.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2199,7 +2935,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 1800.0,
+            "xAxisMax": 7000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2215,7 +2951,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_Ndigis_HF.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -2240,7 +2977,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 1800.0,
+            "xAxisMax": 4000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -2256,7 +2993,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_Ndigis_HO.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -2292,13 +3030,14 @@
         "valColor": 2,
         "xAxisTitle": "HcalDigiTask_Ndigis_HO"
     },
-    "HcalDigiTask/HcalDigiTask_bin_5_frac_HB": {
+    "HcalDigiTask/HcalDigiTask_SOI_frac_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_bin_5_frac_HB.gif",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_SOI_frac_HB.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 1.0,
@@ -2331,15 +3070,16 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_5_frac_HB"
+        "xAxisTitle": "HcalDigiTask_SOI_frac_HB"
     },
-    "HcalDigiTask/HcalDigiTask_bin_5_frac_HE": {
+    "HcalDigiTask/HcalDigiTask_SOI_frac_HE": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_bin_5_frac_HE.gif",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_SOI_frac_HE.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 1.0,
@@ -2372,15 +3112,16 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_5_frac_HE"
+        "xAxisTitle": "HcalDigiTask_SOI_frac_HE"
     },
-    "HcalDigiTask/HcalDigiTask_bin_5_frac_HF": {
+    "HcalDigiTask/HcalDigiTask_SOI_frac_HF": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_bin_3_frac_HF.gif",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_SOI_frac_HF.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 2.0,
@@ -2413,56 +3154,16 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_3_frac_HF"
+        "xAxisTitle": "HcalDigiTask_SOI_frac_HF"
     },
-    "HcalDigiTask/HcalDigiTask_bin_6_7_frac_HB": {
+    "HcalDigiTask/HcalDigiTask_postSOI_frac_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_bin_6_7_frac_HB.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": -0.1,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": 0.0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": -0.1,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 1,
-            "xAxisMax": 1.0,
-            "xAxisMin": -0.1,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_6_7_frac_HB"
-    },
-    "HcalDigiTask/HcalDigiTask_bin_6_7_frac_HE": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_bin_6_7_frac_HE.gif",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_postSOI_frac_HB.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 1.0,
@@ -2495,15 +3196,58 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_6_7_frac_HE"
+        "xAxisTitle": "HcalDigiTask_postSOI_frac_HB"
     },
-    "HcalDigiTask/HcalDigiTask_bin_6_7_frac_HF": {
+    "HcalDigiTask/HcalDigiTask_postSOI_frac_HE": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_bin_4_5_frac_HF.gif",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_postSOI_frac_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 1.0,
+            "xAxisMin": -0.1,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_postSOI_frac_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_postSOI_frac_HF": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_postSOI_frac_HF.gif",
         "rangeHigh": {
             "rebin": 1,
             "xAxisMax": 2.0,
@@ -2536,14 +3280,15 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_bin_4_5_frac_HF"
+        "xAxisTitle": "HcalDigiTask_postSOI_frac_HF"
     },
     "HcalDigiTask/HcalDigiTask_number_of_amplitudes_above_10fC_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -2584,7 +3329,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HE.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -2625,7 +3371,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HF.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -2666,7 +3413,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_number_of_amplitudes_above_10fC_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2707,7 +3455,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth1_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2748,7 +3497,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth1_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2789,7 +3539,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth1_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2830,7 +3581,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth2_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2866,12 +3618,97 @@
         "valColor": 42,
         "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth2_HB"
     },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth3_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth3_HB"
+    },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth4_HB": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HB.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 20.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth4_HB"
+    },
     "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth2_HE": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth2_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2912,7 +3749,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth2_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2948,12 +3786,97 @@
         "valColor": 42,
         "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth2_HF"
     },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth3_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth3_HF"
+    },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth4_HF": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HF.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth4_HF"
+    },
     "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth3_HE": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth3_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -2989,12 +3912,181 @@
         "valColor": 42,
         "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth3_HE"
     },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth4_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth4_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth5_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth5_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth5_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth6_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth6_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth6_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth7_HE": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth7_HE.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 30.0,
+            "xAxisMin": -30.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HcalDigiTask_occupancy_vs_ieta_depth7_HE"
+    },
     "HcalDigiTask/HcalDigiTask_occupancy_vs_ieta_depth4_HO": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "HcalDigiTask_occupancy_vs_ieta_depth4_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3035,7 +4127,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -3060,8 +4153,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3076,12 +4169,13 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_HE.gif",
         "rangeHigh": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3101,8 +4195,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3117,7 +4211,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_HF.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -3142,8 +4237,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 4000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3158,7 +4253,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_HO.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -3183,7 +4279,7 @@
         },
         "rangeMediumPileup": {
             "rebin": 5,
-            "xAxisMax": 1000.0,
+            "xAxisMax": 1500.0,
             "xAxisMin": -10.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -3199,7 +4295,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth1_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -3224,8 +4321,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3240,12 +4337,13 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth1_HE.gif",
         "rangeHigh": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3265,8 +4363,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3281,7 +4379,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth1_HF.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -3306,8 +4405,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 4000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3322,7 +4421,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth2_HB.gif",
         "rangeHigh": {
             "rebin": 2,
@@ -3347,8 +4447,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3358,17 +4458,102 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_signal_amplitude_depth2_HB"
     },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth3_HB": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth3_HB.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth3_HB"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth4_HB": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth4_HB.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 100.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth4_HB"
+    },
     "HcalDigiTask/HcalDigiTask_signal_amplitude_depth2_HE": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth2_HE.gif",
         "rangeHigh": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3388,8 +4573,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3404,7 +4589,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth2_HF.gif",
         "rangeHigh": {
             "rebin": 5,
@@ -3429,8 +4615,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 4000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3440,17 +4626,102 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_signal_amplitude_depth2_HF"
     },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth3_HF": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth3_HF.gif",
+        "rangeHigh": {
+            "rebin": 5,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 5,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth3_HF"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth4_HF": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth4_HF.gif",
+        "rangeHigh": {
+            "rebin": 5,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 10,
+            "xAxisMax": 2000.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 5,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 6000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth4_HF"
+    },
     "HcalDigiTask/HcalDigiTask_signal_amplitude_depth3_HE": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_depth3_HE.gif",
         "rangeHigh": {
             "rebin": 2,
-            "xAxisMax": 3000.0,
-            "xAxisMin": -20.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3470,8 +4741,8 @@
         },
         "rangeMediumPileup": {
             "rebin": 10,
-            "xAxisMax": 2000.0,
-            "xAxisMin": -10.0,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
@@ -3481,12 +4752,181 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_signal_amplitude_depth3_HE"
     },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth4_HE": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth4_HE.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 200.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth4_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth5_HE": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth5_HE.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 200.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth5_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth6_HE": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth6_HE.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 200.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth6_HE"
+    },
+    "HcalDigiTask/HcalDigiTask_signal_amplitude_depth7_HE": {
+        "chi2Flag": "Chi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
+        "outLabel": "HcalDigiTask_signal_amplitude_depth7_HE.gif",
+        "rangeHigh": {
+            "rebin": 2,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 200.0,
+            "xAxisMin": -10.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 2,
+            "xAxisMax": 3000.0,
+            "xAxisMin": -20.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 10,
+            "xAxisMax": 1000000.0,
+            "xAxisMin": -2000.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "Statrv",
+        "valColor": 1,
+        "xAxisTitle": "HcalDigiTask_signal_amplitude_depth7_HE"
+    },
     "HcalDigiTask/HcalDigiTask_signal_amplitude_vs_bin_all_depths_HB": {
         "chi2Flag": "noChi2",
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_vs_bin_all_depths_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3527,7 +4967,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_vs_bin_all_depths_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3568,7 +5009,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_vs_bin_all_depths_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3609,7 +5051,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_signal_amplitude_vs_bin_all_depths_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3650,7 +5093,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ave_et_ieta.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3691,7 +5135,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_et.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3727,94 +5172,13 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_et"
     },
-    "HcalDigiTask/HcalDigiTask_tp_ave_et_ieta_v0": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "noLog",
-        "outLabel": "HcalDigiTask_tp_ave_et_ieta_v0.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_ave_et_ieta (HF 3x2)"
-    },
-    "HcalDigiTask/HcalDigiTask_tp_et_v0": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_tp_et_v0.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 190,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 100,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 190,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 1,
-            "xAxisMax": 190,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "noStat",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_et (HF 3x2)"
-    },
     "HcalDigiTask/HcalDigiTask_tp_ave_et_ieta_v1": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ave_et_ieta_v1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3848,14 +5212,15 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_ave_et_ieta (HF 1x1)"
+        "xAxisTitle": "HcalDigiTask_tp_ave_et_ieta"
     },
     "HcalDigiTask/HcalDigiTask_tp_et_v1": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_et_v1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3889,14 +5254,15 @@
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_et (HF 1x1)"
+        "xAxisTitle": "HcalDigiTask_tp_et"
     },
     "HcalDigiTask/HcalDigiTask_tp_et_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_et_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3937,7 +5303,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_et_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -3978,7 +5345,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_et_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4014,53 +5382,13 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_et_HF"
     },
-    "HcalDigiTask/HcalDigiTask_tp_et_HF_v0": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_tp_et_HF_v0.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 150,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 150,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 150,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 1,
-            "xAxisMax": 150,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "noStat",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_et_HF (HF 3x2)"
-    },
     "HcalDigiTask/HcalDigiTask_tp_et_HF_v1": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_et_HF_v1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4094,14 +5422,15 @@
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_et_HF (HF 1x1)"
+        "xAxisTitle": "HcalDigiTask_tp_et_HF"
     },
     "HcalDigiTask/HcalDigiTask_tp_ntp": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4142,7 +5471,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_10_ieta.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4178,98 +5508,17 @@
         "valColor": 1,
         "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta"
     },
-    "HcalDigiTask/HcalDigiTask_tp_ntp_v0": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_tp_ntp_v0.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 500,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 500,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 500,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 2,
-            "xAxisMax": 1000,
-            "xAxisMin": 0,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "noStat",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_ntp (HF 3x2)"
-    },
-    "HcalDigiTask/HcalDigiTask_tp_ntp_10_ieta_v0": {
-        "chi2Flag": "Chi2",
-        "dimFlag": "1D",
-        "drawSwitch": 1,
-        "histName2": "none",
-        "logFlag": "Log",
-        "outLabel": "HcalDigiTask_tp_ntp_10_ieta_v0.gif",
-        "rangeHigh": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeLow": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMedium": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "rangeMediumPileup": {
-            "rebin": 1,
-            "xAxisMax": 35,
-            "xAxisMin": -35,
-            "yAxisMax": -1.0,
-            "yAxisMin": 0.0
-        },
-        "ratioFlag": 1,
-        "refColor": 2,
-        "statFlag": "Statrv",
-        "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta (HF 3x2)"
-    },
     "HcalDigiTask/HcalDigiTask_tp_ntp_v1": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_v1.gif",
         "rangeHigh": {
             "rebin": 1,
-            "xAxisMax": 500,
+            "xAxisMax": 1000,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -4299,14 +5548,15 @@
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_ntp (HF 1x1)"
+        "xAxisTitle": "HcalDigiTask_tp_ntp"
     },
     "HcalDigiTask/HcalDigiTask_tp_ntp_10_ieta_v1": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_10_ieta_v1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4340,18 +5590,19 @@
         "refColor": 2,
         "statFlag": "Statrv",
         "valColor": 1,
-        "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta (HF 1x1)"
+        "xAxisTitle": "HcalDigiTask_tp_ntp_10_ieta"
     },
     "HcalDigiTask/HcalDigiTask_tp_ntp_HB": {
         "chi2Flag": "Chi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_HB.gif",
         "rangeHigh": {
             "rebin": 1,
-            "xAxisMax": 400,
+            "xAxisMax": 600,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -4388,11 +5639,12 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_HE.gif",
         "rangeHigh": {
             "rebin": 1,
-            "xAxisMax": 200,
+            "xAxisMax": 500,
             "xAxisMin": 0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -4429,7 +5681,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4470,7 +5723,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_HF_v0.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4511,7 +5765,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HcalDigiTask_tp_ntp_HF_v1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4552,7 +5807,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy.gif",
         "rangeMediumData": {
             "rebin": 1,
@@ -4572,7 +5828,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy_type1.gif",
         "rangeMediumData": {
             "rebin": 1,
@@ -4592,7 +5849,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy_type2.gif",
         "rangeMediumData": {
             "rebin": 4,
@@ -4612,7 +5870,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy_type3.gif",
         "rangeMediumData": {
             "rebin": 4,
@@ -4632,7 +5891,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_Nhits.gif",
         "rangeMediumData": {
             "rebin": 1,
@@ -4652,7 +5912,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_Aux_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4700,7 +5961,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_Aux_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4748,7 +6010,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_Aux_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4796,7 +6059,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HO_Aux_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4844,7 +6108,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HB_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4892,7 +6157,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HE_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4940,7 +6206,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "HF_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -4988,7 +6255,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HO_StatusWord.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5036,7 +6304,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_energy_HB.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -5084,7 +6353,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_energy_HE.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -5132,7 +6402,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_energy_HF.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -5180,7 +6451,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_energy_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5228,7 +6500,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "severityLevel_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5276,7 +6549,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "severityLevel_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5324,7 +6598,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "severityLevel_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5372,7 +6647,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "severityLevel_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5420,7 +6696,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_timing_HB.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5468,7 +6745,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_timing_HE.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5516,7 +6794,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_timing_HF.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5564,7 +6843,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "RecHits_timing_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5612,7 +6892,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_HB",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_Timing_vs_Energy.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5653,7 +6934,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_HE",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_Timing_vs_Energy.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5694,7 +6976,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_HF",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HF_Timing_vs_Energy.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5735,7 +7018,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_HO",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HO_Timing_vs_Energy.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -5783,7 +7067,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_Low_HB",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HB_Timing_vs_Energy.gif",
         "rangeLow": {
             "rebin": 1,
@@ -5803,7 +7088,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_Low_HE",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HE_Timing_vs_Energy.gif",
         "rangeLow": {
             "rebin": 1,
@@ -5823,7 +7109,8 @@
         "dimFlag": "TM",
         "drawSwitch": 1,
         "histName2": "HcalRecHitTask/HcalRecHitTask_timing_vs_energy_profile_Low_HF",
-        "logFlag": "noLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HF_Timing_vs_Energy.gif",
         "rangeLow": {
             "rebin": 1,
@@ -5843,7 +7130,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "N_HB.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -5891,7 +7179,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "N_HE.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -5939,25 +7228,26 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "N_HF.gif",
         "rangeHigh": {
             "rebin": 10,
-            "xAxisMax": 600.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeLow": {
             "rebin": 10,
-            "xAxisMax": 500.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
         "rangeMedium": {
             "rebin": 10,
-            "xAxisMax": 600.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -5987,7 +7277,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "N_HO.gif",
         "rangeHigh": {
             "rebin": 10,
@@ -6035,7 +7326,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emap_depth1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6083,7 +7375,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emap_depth2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6131,7 +7424,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emap_depth3.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6179,7 +7473,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emap_depth4.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6227,7 +7522,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emap_depth5.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6236,7 +7532,30 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -6254,7 +7573,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emap_depth6.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6263,7 +7583,30 @@
             "yAxisMax": 72.0,
             "yAxisMin": 0.0
         },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": 42.0,
             "xAxisMin": -42.0,
@@ -6274,14 +7617,67 @@
         "refColor": 2,
         "statFlag": "noStat",
         "valColor": 1,
-        "xAxisTitle": "eta-phi RecHits E"
+        "xAxisTitle": "eta-phi RecHits Emap depth6"
+    },
+    "HcalRecHitTask/emap_depth7": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "2D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "emap_depth7.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": 42.0,
+            "xAxisMin": -42.0,
+            "yAxisMax": 72.0,
+            "yAxisMin": 0.0
+        },
+
+        "ratioFlag": 1,
+        "refColor": 2,
+        "statFlag": "noStat",
+        "valColor": 1,
+        "xAxisTitle": "eta-phi RecHits Emap depth7"
     },
     "HcalRecHitTask/emean_vs_ieta_HB1": {
         "chi2Flag": "noChi2",
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HB1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6329,7 +7725,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HB2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6377,7 +7774,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HB3.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6404,7 +7802,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HB4.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6431,7 +7830,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HB5.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6458,7 +7858,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HE1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6506,7 +7907,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HE2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6554,7 +7956,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HE3.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6602,7 +8005,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HE4.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6612,6 +8016,13 @@
             "yAxisMin": 0.0
         },
         "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
             "rebin": 1,
             "xAxisMax": -1.0,
             "xAxisMin": 0.0,
@@ -6629,7 +8040,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HE5.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6645,18 +8057,96 @@
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
         },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
         "ratioFlag": 1,
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
         "xAxisTitle": "Mean energy vs ieta (GeV) HE depth5"
     },
+    "HcalRecHitTask/emean_vs_ieta_HE6": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "PR",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "emean_vs_ieta_HE6.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "Mean energy vs ieta (GeV) HE depth6"
+    },
+    "HcalRecHitTask/emean_vs_ieta_HE7": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "PR",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "emean_vs_ieta_HE7.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "Mean energy vs ieta (GeV) HE depth7"
+    },
     "HcalRecHitTask/emean_vs_ieta_HF1": {
         "chi2Flag": "noChi2",
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HF1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6704,7 +8194,8 @@
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HF2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6747,12 +8238,111 @@
         "valColor": 42,
         "xAxisTitle": "Mean energy vs ieta (GeV) HF depth2"
     },
+    "HcalRecHitTask/emean_vs_ieta_HF3": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "PR",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "emean_vs_ieta_HF3.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "Mean energy vs ieta (GeV) HF depth3"
+    },
+    "HcalRecHitTask/emean_vs_ieta_HF4": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "PR",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
+        "outLabel": "emean_vs_ieta_HF4.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "Mean energy vs ieta (GeV) HF depth4"
+    },
     "HcalRecHitTask/emean_vs_ieta_HO": {
         "chi2Flag": "noChi2",
         "dimFlag": "PR",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "emean_vs_ieta_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6800,7 +8390,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HB1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6848,7 +8439,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HB2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6896,7 +8488,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HB3.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6916,14 +8509,15 @@
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
-        "xAxisTitle": "HB depth 2: occupancy vs ieta"
+        "xAxisTitle": "HB depth 3: occupancy vs ieta"
     },
     "HcalRecHitTask/occupancy_vs_ieta_HB4": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HB4.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6943,14 +8537,15 @@
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
-        "xAxisTitle": "HB depth 2: occupancy vs ieta"
+        "xAxisTitle": "HB depth 4: occupancy vs ieta"
     },
     "HcalRecHitTask/occupancy_vs_ieta_HB5": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HB5.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -6977,7 +8572,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HE1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7025,7 +8621,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HE2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7073,7 +8670,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HE3.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7121,7 +8719,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HE4.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7141,14 +8740,15 @@
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
-        "xAxisTitle": "HE depth 3: occupancy vs ieta"
+        "xAxisTitle": "HE depth 4: occupancy vs ieta"
     },
     "HcalRecHitTask/occupancy_vs_ieta_HE5": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HE5.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7168,14 +8768,71 @@
         "refColor": 41,
         "statFlag": "noStat",
         "valColor": 42,
-        "xAxisTitle": "HE depth 3: occupancy vs ieta"
+        "xAxisTitle": "HE depth 5: occupancy vs ieta"
+    },
+    "HcalRecHitTask/occupancy_vs_ieta_HE6": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "occupancy_vs_ieta_HE6.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HE depth 6: occupancy vs ieta"
+    },
+    "HcalRecHitTask/occupancy_vs_ieta_HE7": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "occupancy_vs_ieta_HE7.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HE depth 7: occupancy vs ieta"
     },
     "HcalRecHitTask/occupancy_vs_ieta_HF1": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HF1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7223,7 +8880,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HF2.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7266,12 +8924,111 @@
         "valColor": 42,
         "xAxisTitle": "HF depth 2: occupancy vs ieta"
     },
+    "HcalRecHitTask/occupancy_vs_ieta_HF3": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "occupancy_vs_ieta_HF3.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HF depth 3: occupancy vs ieta"
+    },
+    "HcalRecHitTask/occupancy_vs_ieta_HF4": {
+        "chi2Flag": "noChi2",
+        "dimFlag": "1D",
+        "drawSwitch": 1,
+        "histName2": "none",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
+        "outLabel": "occupancy_vs_ieta_HF4.gif",
+        "rangeHigh": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeLow": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMedium": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumData": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "rangeMediumPileup": {
+            "rebin": 1,
+            "xAxisMax": -1.0,
+            "xAxisMin": 0.0,
+            "yAxisMax": -1.0,
+            "yAxisMin": 0.0
+        },
+        "ratioFlag": 1,
+        "refColor": 41,
+        "statFlag": "noStat",
+        "valColor": 42,
+        "xAxisTitle": "HF depth 4: occupancy vs ieta"
+    },
     "HcalRecHitTask/occupancy_vs_ieta_HO": {
         "chi2Flag": "noChi2",
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "NoNorm",
         "outLabel": "occupancy_vs_ieta_HO.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -7319,7 +9076,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "NumberHitsInHCAL.gif",
         "rangeSim": {
             "rebin": 20,
@@ -7339,7 +9097,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HitsWithWrongDet.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7359,7 +9118,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HitsWithWrongSubdet.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7379,7 +9139,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HitsWithWrongID.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7399,11 +9160,12 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "NumberHitsHB.gif",
         "rangeSim": {
             "rebin": 20,
-            "xAxisMax": 1000.0,
+            "xAxisMax": 3000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -7419,11 +9181,12 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "NumberHitsHE.gif",
         "rangeSim": {
             "rebin": 20,
-            "xAxisMax": 1000.0,
+            "xAxisMax": 4000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -7439,7 +9202,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "NumberHitsHO.gif",
         "rangeSim": {
             "rebin": 10,
@@ -7459,11 +9223,12 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "NumberHitsHF.gif",
         "rangeSim": {
             "rebin": 20,
-            "xAxisMax": 1000.0,
+            "xAxisMax": 2000.0,
             "xAxisMin": 0.0,
             "yAxisMax": -1.0,
             "yAxisMin": 0.0
@@ -7479,7 +9244,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "DetectorID.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7499,7 +9265,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "SubdetectorsInHCAL.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7519,7 +9286,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "DepthsInHCAL.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7539,7 +9307,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EtaInHCAL.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7559,7 +9328,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "PhiInHCAL.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7579,7 +9349,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHCAL.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7599,7 +9370,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "TimeInHCAL.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7619,7 +9391,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "TimeInHCALew.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7639,7 +9412,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "DepthsInHB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7659,7 +9433,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "DepthsInHE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7679,7 +9454,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "DepthsInHO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7699,7 +9475,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "DepthsInHF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7719,7 +9496,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EtaInHB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7739,7 +9517,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EtaInHE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7759,7 +9538,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EtaInHO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7779,7 +9559,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EtaInHF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7799,7 +9580,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "PhiInHB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7819,7 +9601,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "PhiInHE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7839,7 +9622,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "PhiInHO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7859,7 +9643,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "PhiInHF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7879,7 +9664,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7899,7 +9685,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7919,7 +9706,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7939,7 +9727,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "Log",
+        "logFlag": "Log", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7959,7 +9748,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "TimeInHB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7979,7 +9769,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "TimeInHE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -7999,7 +9790,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "TimeInHO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8019,7 +9811,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "TimeInHF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8039,7 +9832,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHB2.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8059,7 +9853,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHE2.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8079,7 +9874,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHO2.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8099,7 +9895,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "EnergyInHF2.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8119,7 +9916,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8139,7 +9937,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8159,7 +9958,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8179,7 +9979,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8199,7 +10000,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHB2D.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8219,7 +10021,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHE2D.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8239,7 +10042,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHF2D.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8259,7 +10063,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Log10EnergyInHO2D.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8279,7 +10084,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -8320,7 +10126,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy_type1.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -8361,7 +10168,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy_type2.gif",
         "rangeHigh": {
             "rebin": 4,
@@ -8402,7 +10210,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_energy_type3.gif",
         "rangeHigh": {
             "rebin": 4,
@@ -8443,7 +10252,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "RBX_Nhits.gif",
         "rangeHigh": {
             "rebin": 1,
@@ -8484,7 +10294,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Energy_HB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8504,7 +10315,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Energy_HE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8524,7 +10336,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Energy_HF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8544,7 +10357,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Energy_HO.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8564,7 +10378,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HB0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8584,7 +10399,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HB1.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8604,7 +10420,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HE0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8624,7 +10441,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HE0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8644,7 +10462,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HE1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8664,7 +10483,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HE1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8684,7 +10504,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HE2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8704,7 +10525,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HE2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8724,7 +10546,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8744,7 +10567,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8764,7 +10588,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8784,7 +10609,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8804,7 +10630,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8824,7 +10651,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8844,7 +10672,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8864,7 +10693,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFL3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8884,7 +10714,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8904,7 +10735,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8924,7 +10756,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8944,7 +10777,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8964,7 +10798,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -8984,7 +10819,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9004,7 +10840,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9024,7 +10861,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HFS3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9044,7 +10882,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE100HO0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9064,7 +10903,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HB0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9084,7 +10924,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HB1.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9104,7 +10945,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HE0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9124,7 +10966,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HE0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9144,7 +10987,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HE1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9164,7 +11008,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HE1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9184,7 +11029,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HE2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9204,7 +11050,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HE2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9224,7 +11071,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9244,7 +11092,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9264,7 +11113,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9284,7 +11134,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9304,7 +11155,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9324,7 +11176,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9344,7 +11197,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9364,7 +11218,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFL3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9384,7 +11239,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9404,7 +11260,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9424,7 +11281,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9444,7 +11302,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9464,7 +11323,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9484,7 +11344,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9504,7 +11365,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9524,7 +11386,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HFS3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9544,7 +11407,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE250HO0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9564,7 +11428,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HB0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9584,7 +11449,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HB1.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9604,7 +11470,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HE0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9624,7 +11491,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HE0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9644,7 +11512,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HE1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9664,7 +11533,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HE1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9684,7 +11554,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HE2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9704,7 +11575,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HE2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9724,7 +11596,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9744,7 +11617,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9764,7 +11638,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9784,7 +11659,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9804,7 +11680,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9824,7 +11701,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9844,7 +11722,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9864,7 +11743,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFL3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9884,7 +11764,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9904,7 +11785,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9924,7 +11806,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9944,7 +11827,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9964,7 +11848,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -9984,7 +11869,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10004,7 +11890,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10024,7 +11911,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HFS3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10044,7 +11932,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE25HO0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10064,7 +11953,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HB0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10084,7 +11974,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HB1.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10104,7 +11995,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HE0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10124,7 +12016,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HE0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10144,7 +12037,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HE1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10164,7 +12058,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HE1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10184,7 +12079,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HE2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10204,7 +12100,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HE2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10224,7 +12121,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10244,7 +12142,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10264,7 +12163,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10284,7 +12184,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10304,7 +12205,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10324,7 +12226,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10344,7 +12247,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10364,7 +12268,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFL3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10384,7 +12289,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10404,7 +12310,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10424,7 +12331,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10444,7 +12352,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10464,7 +12373,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10484,7 +12394,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10504,7 +12415,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10524,7 +12436,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HFS3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10544,7 +12457,8 @@
         "dimFlag": "2D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitE50HO0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10564,7 +12478,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHB0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10584,7 +12499,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHB1.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10604,7 +12520,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHE0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10624,7 +12541,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHE0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10644,7 +12562,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHE1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10664,7 +12583,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHE1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10684,7 +12604,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHE2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10704,7 +12625,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHE2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10724,7 +12646,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10744,7 +12667,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10764,7 +12688,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10784,7 +12709,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10804,7 +12730,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10824,7 +12751,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10844,7 +12772,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10864,7 +12793,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFL3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10884,7 +12814,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10904,7 +12835,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10924,7 +12856,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10944,7 +12877,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10964,7 +12898,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -10984,7 +12919,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11004,7 +12940,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11024,7 +12961,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHFS3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11044,7 +12982,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitEtaHO0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11064,7 +13003,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHB0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11084,7 +13024,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHB1.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11104,7 +13045,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHE0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11124,7 +13066,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHE0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11144,7 +13087,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHE1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11164,7 +13108,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHE1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11184,7 +13129,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHE2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11204,7 +13150,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHE2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11224,7 +13171,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11244,7 +13192,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11264,7 +13213,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11284,7 +13234,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11304,7 +13255,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11324,7 +13276,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11344,7 +13297,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11364,7 +13318,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFL3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11384,7 +13339,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS0+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11404,7 +13360,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS0-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11424,7 +13381,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS1+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11444,7 +13402,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS1-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11464,7 +13423,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS2+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11484,7 +13444,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS2-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11504,7 +13465,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS3+z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11524,7 +13486,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHFS3-z.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11544,7 +13507,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "HcalHitTimeAEtaHO0.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11564,7 +13528,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Time_Enweighted_HB.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11584,7 +13549,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Time_Enweighted_HE.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11604,7 +13570,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Time_Enweighted_HF.gif",
         "rangeSim": {
             "rebin": 1,
@@ -11624,7 +13591,8 @@
         "dimFlag": "1D",
         "drawSwitch": 1,
         "histName2": "none",
-        "logFlag": "NoLog",
+        "logFlag": "NoLog", 
+        "normFlag": "Norm",
         "outLabel": "Time_Enweighted_HO.gif",
         "rangeSim": {
             "rebin": 1,
