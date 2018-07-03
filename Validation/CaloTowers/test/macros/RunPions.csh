@@ -24,7 +24,7 @@ else
 endif
 
 #Go to CaloTowers test directory
-cd $CMSSW_BASE/src/Validation/CaloTowers/test/macros
+cd $CMSSW_BASE/src/HcalRelVal/Validation/CaloTowers/test/macros
 
 #Check if base directory already exists
 if (-d ${NEW_VERS}_vs_${OLD_VERS}_RelVal) then
