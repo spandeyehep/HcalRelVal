@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #RelValMacro.py
 
 import sys
@@ -39,8 +39,9 @@ if len(sys.argv) == 6:
                     valColor = spaceEscape(inputFile[histogram]['valColor'])
                     xAxisTitle = spaceEscape(inputFile[histogram]['xAxisTitle'])
                     histName2 = spaceEscape(inputFile[histogram]['histName2'])
-                    cmd = ref_vers + "|" + val_vers + "|" + rfname + "|" + vfname + "|" + histName + "|" + ofileName + "|" + nRebin + "|" + xAxisMin + "|" + xAxisMax + "|" + yAxisMin + "|" + yAxisMax + "|" + dimFlag + "|" + statFlag + "|" + chi2Flag + "|" + logFlag + "|" + ratioFlag + "|" + refColor + "|" + valColor + "|" + xAxisTitle + "|" + histName2
+                    normFlag = spaceEscape(inputFile[histogram]['normFlag'])
+                    cmd = ref_vers + "|" + val_vers + "|" + rfname + "|" + vfname + "|" + histName + "|" + ofileName + "|" + nRebin + "|" + xAxisMin + "|" + xAxisMax + "|" + yAxisMin + "|" + yAxisMax + "|" + dimFlag + "|" + statFlag + "|" + chi2Flag + "|" + logFlag + "|" + ratioFlag + "|" + refColor + "|" + valColor + "|" + xAxisTitle + "|" + histName2 + "|" + normFlag
                     RelValMacro.RelValMacro(cmd)
 else:
     print "Usage: ./RelValMacro.py ref_vers val_vers ref_file_name val_file_name range[High/Medium/Low]"
-#std::string ref_vers, std::string val_vers, std::string rfname, std::string vfname, std::string histName, std::string ofileName, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax, std::string dimFlag, std::string statFlag, std::string chi2Flag, std::string logFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2
+#std::string ref_vers, std::string val_vers, std::string rfname, std::string vfname, std::string histName, std::string ofileName, int nRebin, double xAxisMin, double xAxisMax, double yAxisMin, double yAxisMax, std::string dimFlag, std::string statFlag, std::string chi2Flag, std::string logFlag, int refCol, int valCol, std::string xAxisTitle, std::string histName2, std::string normFlag

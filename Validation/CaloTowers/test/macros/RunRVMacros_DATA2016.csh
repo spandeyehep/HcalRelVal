@@ -42,8 +42,8 @@ mkdir JetHT/CaloTowers
 mkdir JetHT/RecHits
 mkdir JetHT/RBX
 
-cat ../html_indices/RelVal_RecHits.html | sed -e s/DATA_SAMPLE/JetHT/ > JetHT/RecHits/index.html
-cp ../html_indices/RelVal_CaloTowers.html JetHT/CaloTowers/index.html
+cat ../html_indices/RelVal_RecHits2016.html | sed -e s/DATA_SAMPLE/JetHT/ > JetHT/RecHits/index.html
+cp ../html_indices/RelVal_CaloTowers2016.html JetHT/CaloTowers/index.html
 cp ../html_indices/RBX.html               JetHT/RBX/index.html
 
 #MinBias
@@ -63,15 +63,15 @@ mkdir ZeroBias/CaloTowers
 mkdir ZeroBias/RecHits
 mkdir ZeroBias/RBX
 
-cat ../html_indices/RelVal_RecHits.html | sed -e s/DATA_SAMPLE/ZeroBias/ > ZeroBias/RecHits/index.html
-cp ../html_indices/RelVal_CaloTowers.html ZeroBias/CaloTowers/index.html
+cat ../html_indices/RelVal_RecHits2016.html | sed -e s/DATA_SAMPLE/ZeroBias/ > ZeroBias/RecHits/index.html
+cp ../html_indices/RelVal_CaloTowers2016.html ZeroBias/CaloTowers/index.html
 cp ../html_indices/RBX.html               ZeroBias/RBX/index.html
 
 cd ..
 
 #Process Startup Jet
 #root -b -l -q 'RelValMacro.C("'${OLD_VERS}_Startup'","'${NEW_VERS}_Startup'","'HcalRecHitValidationRelVal_Jet_${OLD_VERS}.root'","'HcalRecHitValidationRelVal_Jet_${NEW_VERS}.root'","InputRelVal_Medium_DATA.txt")'
-./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_JetHT_${OLD_VERS}.root HcalRecHitValidationRelVal_JetHT_${NEW_VERS}.root rangeJetHT
+./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_JetHT_${OLD_VERS}.root HcalRecHitValidationRelVal_JetHT_${NEW_VERS}.root rangeMediumData
 
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal/JetHT/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal/JetHT/RBX/
@@ -88,7 +88,7 @@ mv *gif             ${NEW_VERS}_vs_${OLD_VERS}_RelVal/JetHT/RecHits/
 
 #Process Startup ZeroBias
 #root -b -l -q 'RelValMacro.C("'${OLD_VERS}'","'${NEW_VERS}'","'HcalRecHitValidationRelVal_ZeroBias_${OLD_VERS}.root'","'HcalRecHitValidationRelVal_ZeroBias_${NEW_VERS}.root'","InputRelVal_Medium_DATA.txt")'
-./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_ZeroBias_${OLD_VERS}.root HcalRecHitValidationRelVal_ZeroBias_${NEW_VERS}.root rangeZeroBias
+./RelValMacro.py ${OLD_VERS} ${NEW_VERS} HcalRecHitValidationRelVal_ZeroBias_${OLD_VERS}.root HcalRecHitValidationRelVal_ZeroBias_${NEW_VERS}.root rangeLowData
 
 mv *CaloTowers*.gif ${NEW_VERS}_vs_${OLD_VERS}_RelVal/ZeroBias/CaloTowers/
 mv RBX*gif          ${NEW_VERS}_vs_${OLD_VERS}_RelVal/ZeroBias/RBX/

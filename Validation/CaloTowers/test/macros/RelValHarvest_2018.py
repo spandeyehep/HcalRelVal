@@ -28,7 +28,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                  printDS = False,
                  camType = "MC"):
                
-    print "Taking filenames from directory %s"%relValDIR
+    print "Taking filenames from directory ",relValDIR
 
     # retrieve the list of datasets
     if not os.path.isfile(relValDIR):
@@ -49,7 +49,7 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                     # extract dataset path
                     path = line.split('\'')[1].strip()
                     #print "Getting DQM output from dataset: %s"%path
-                    if (path.find("Ideal") > 0 or path.find("design") > 0 or path.find("FastSim") > 0 or path.find("DQM") < 0 or path.find("Pixel") > 0 ):  #skip for unnecessary samples
+                    if (path.find("Ideal") > 0 or path.find("design") > 0  or path.find("DQM") < 0 or path.find("Pixel") > 0 or path.find("2017") > 0 or path.find("FastSim") > 0 or path.find("asymptotic") > 0):  #skip for unnecessary samples
                         continue
                     print path.split("/")[-1] #path
                     if printDS:
@@ -63,23 +63,26 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 
                     #The Data sample have an additional piece put in. We strip it out so that the MC and DATA code can be common
 
-                    if camType == "DATA":
-                        iparts = info.split("_")
-			info = ""
-			skip = False
-			for fragment in iparts:
-                            if skip:
-                                info = info.strip("_")
-                                skip = False
-                                continue
-                            if fragment == "RelVal":
-                                skip = True
-                                continue
-                            info += fragment
-                            info += "_"
-                        info = info.strip("_")
+                    # if camType == "DATA":
+                    #     iparts = info.split("_")
+		    #     info = ""
+		    #     skip = False
+		    #     for fragment in iparts:
+                    #         if skip:
+                    #             info = info.strip("_")
+                    #             skip = False
+                    #             continue
+                    #         if fragment == "RelVal":
+                    #             skip = True
+                    #             continue
+                    #         info += fragment
+                    #         info += "_"
+                    #     info = info.strip("_")
 
                     ofn = ofnBlank%{"sample":dsFlags[str],"label":slabel,"info":info}
+                    if camType == "DATA":
+                        ofn = ofn.replace("zb","")
+                        ofn = ofn.replace("jetHT","")
                     print "ofn = ",ofn
                     #Check if file exists already
                     if not os.path.isfile(ofn):
@@ -93,6 +96,8 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
                         print mvCommand
                         os.system(mvCommand)
                         print ""
+                        # sys.exit();
+                        
 
     fin.close();
     rmCommand = "rm %(ofn)s"%{"ofn":relValDIR}
@@ -119,21 +124,12 @@ def getDataSets( dsFlags = {'RelValMinBias_13__':'MinBias'},
 dsMCFlags = {'RelValTTbar_13__':'TTbar', 'RelValQCD_Pt_80_120_13__':'QCD', 'RelValQCD_Pt_3000_3500_13__':'HighPtQCD', 'RelValMinBias_13__':'MinBias'}
 ds2023Flags = {'RelValTTbar_14TeV__':'TTbar', 'RelValMinBias_14TeV__':'MinBias'}
 
-#dsDATAFlags = {'301998__JetHT__':'JetHT', '301998__ZeroBias__':'ZeroBias'}  #Original
-#dsDATAFlags = {'305064__JetHT__':'JetHT','305064__ZeroBias__':'ZeroBias'} # 2017F
-dsDATAFlags = {'297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias'} # 2017B
-#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias'} #2016B & 2017B dataset
+dsDATAFlags = {'297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias', #2017B
+               '315489__JetHT__':'JetHT','315489__ZeroBias__':'ZeroBias', #2018A
+               '317435__JetHT__':'JetHT','317435__ZeroBias__':'ZeroBias', #2018B
+               '319450__JetHT__':'JetHT','319450__ZeroBias__':'ZeroBias', #2018C
+               '320822__JetHT__':'JetHT','320822__ZeroBias__':'ZeroBias'} # 2018D
 
-#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297227__JetHT__':'JetHT','297227__ZeroBias__':'ZeroBias','302663__JetHT__':'JetHT','302663__ZeroBias__':'ZeroBias'} #2016B & 2017B & 2017D dataset
-
-
-#dsDATAFlags = {'274199__JetHT__':'JetHT','274199__ZeroBias__':'ZeroBias','297557__JetHT__':'JetHT','297557__ZeroBias__':'ZeroBias','305064__JetHT__':'JetHT','305064__ZeroBias__':'ZeroBias'} #2016B & 2017B & 2017D dataset
-#dsDATAFlags = {'256677__SingleMuon__':'SingleMuon'} #New_original
-#dsDATAFlags = {'254790__JetHT__':'JetHT','254790__ZeroBias__':'ZeroBias','254790__SingleMuon__':'SingleMuon'} #New_new
-# filename prefix 
-#fnPrefix = "DQM_V0001_R000000001"
-#MinBiasPrefix = "DQM_V0001_R000149011"
-#JetPrefix = "DQM_V0001_R000191226"
 
 # blank curl command 
 curlMC = "/usr/bin/curl -O -L --capath %(CERT_DIR)s --key %(USER_PROXY)s --cert %(USER_PROXY)s https://cmsweb.cern.ch/dqm/relval/data/browse/ROOT/RelVal/%(relValDIR)s"
